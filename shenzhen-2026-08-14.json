@@ -1,0 +1,1297 @@
+{
+  "$schema": "./README.md#schema",
+  "amap_key": "",
+  "trip_name": "深圳→郴州→连州 3日自驾（仰天湖·雾漫小东江·地下河）",
+  "date_range": "2026-08-14 ~ 2026-08-16",
+  "n_days": "3 天 2 晚",
+  "city": "深圳出发 · 郴州 / 连州",
+  "summary": "高山草原＋晨雾仙境＋地下暗河三景串联的自驾环线：D1 深圳直奔仰天湖大草原看云海日落，宿郴州市区；D2 清晨卡点雾漫小东江看渔夫撒网，午后跨城连州；D3 钻 5A 连州地下河，午饭后返深圳。全程约 1150km，节奏『赶路—看雾—钻洞』张弛有度。",
+  "weather_plan": "8 月中旬湘南/粤北午后易有雷阵雨：仰天湖与雾漫小东江对天气敏感，出发前 1 天查预报——雾漫需前晚晴朗＋清晨温差大（大晴天＞多云＞雨后；大风暴雨=无雾）；仰天湖优先选晴天，阴雨改郴州市区室内备选；连州地下河洞内恒温 18–22℃，不受天气影响，但返程雨天注意行车。",
+  "trip_center": [
+    113.010841,
+    25.765266
+  ],
+  "hotel": {
+    "name": "维也纳国际酒店（郴州五岭广场店）",
+    "address": "湖南省郴州市北湖区南岭大道 886 号",
+    "lng": 113.009944,
+    "lat": 25.777654,
+    "amap_uri": "https://uri.amap.com/marker?position=113.009944,25.777654&name=维也纳国际酒店郴州五岭广场店",
+    "why": "五岭广场商圈（郴州市区核心）：距京港澳高速出口约 10 分钟，D2 清晨去东江湖约 1 小时 10 分；D1 从仰天湖下山约 1 小时 40 分可到。",
+    "commute": [
+      {
+        "day": 1,
+        "region": "仰天湖大草原",
+        "duration_min": 94,
+        "mode": "自驾（郴仰公路）"
+      },
+      {
+        "day": 2,
+        "region": "东江湖·雾漫小东江",
+        "duration_min": 68,
+        "mode": "自驾（京港澳G4→资兴）"
+      },
+      {
+        "day": 3,
+        "region": "连州地下河（D3 换宿连州国际大酒店）",
+        "duration_min": 40,
+        "mode": "自驾（S114→东陂镇）"
+      }
+    ],
+    "price": {
+      "min": 420,
+      "max": 710,
+      "currency": "CNY",
+      "unit": "per_night",
+      "quantity": 2,
+      "total_min": 420,
+      "total_max": 710,
+      "label": "住宿（2晚：郴州+连州）",
+      "source": "ctrip-webfetch",
+      "source_ref": "携程酒店同商圈连锁实价区间调研"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-14",
+      "weekday": "周五",
+      "region": "仰天湖大草原 → 郴州市区",
+      "theme": "落地自驾 · 高山草原日落",
+      "weather": "多云 30℃",
+      "weather_emoji": "⛅",
+      "weather_decision": "8 月午后山区易变天：仰天湖选晴天出行；若阴雨改郴州市区五岭广场商圈＋苏仙岭室内备选。",
+      "region_flex": true,
+      "center": [
+        113.019,
+        25.773
+      ],
+      "zoom": 10,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "06:30",
+          "name": "深圳自驾出发",
+          "cat": "transport",
+          "duration_min": 15,
+          "note": "导航『仰天湖大草原』，走京港澳高速G4北上约 442km；途中进服务区休息 2 次；后半段郴仰公路盘山弯道多，备好晕车药。",
+          "why": "全程高速+新铺柏油盘山路，自驾约 6 小时（含休息）",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "出发",
+            "source": "computed",
+            "source_ref": "零元"
+          },
+          "slot_costs": [
+            {
+              "label": "油费（全程约1150km）",
+              "price": {
+                "min": 690,
+                "max": 805,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 690,
+                "total_max": 805,
+                "label": "油费",
+                "source": "computed",
+                "source_ref": "按 0.6–0.7 元/km×1150km 估算"
+              }
+            }
+          ],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 2,
+          "time": "15:00",
+          "name": "仰天湖大草原景区",
+          "cat": "scenery",
+          "duration_min": 180,
+          "lng": 112.835379,
+          "lat": 25.509301,
+          "note": "海拔 1314m 高山草原：环湖栈道、跑马场骑马、彩虹滑草、风车观景台、萌宠互动；暑假周末营业至 18:00；观光车 50 元/人通票建议买（草原太大）；山顶温差大带薄外套；12:30 先到郴州市区午餐（鱼粉）再上山。",
+          "why": "『南方最美高山草原』，8 月避暑＋云海日落最佳季",
+          "weather_sensitive": true,
+          "requires_booking": true,
+          "indoor_backup": "阴雨改：郴州市区五岭广场商圈/苏仙岭（室内）",
+          "price": {
+            "min": 72,
+            "max": 80,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 2,
+            "total_min": 144,
+            "total_max": 160,
+            "label": "门票",
+            "source": "official-site",
+            "source_ref": "北湖区文旅公告：线上提前1天72元/即买80元（门市120）"
+          },
+          "slot_costs": [
+            {
+              "label": "景区观光车",
+              "price": {
+                "min": 50,
+                "max": 50,
+                "currency": "CNY",
+                "unit": "per_person",
+                "quantity": 2,
+                "total_min": 100,
+                "total_max": 100,
+                "label": "观光车",
+                "source": "official-site",
+                "source_ref": "景区通票 50 元/人"
+              }
+            }
+          ],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 3,
+          "time": "19:45",
+          "name": "抵达郴州市区 · 入住",
+          "cat": "transport",
+          "duration_min": 45,
+          "lng": 113.010841,
+          "lat": 25.765266,
+          "note": "入住维也纳国际酒店（五岭广场店）；晚餐步行/短驾：高子烧鸡公（五里堆路，郴州招牌）或顶家家（湘菜连锁）；酒店距京港澳高速出口约 10 分钟。",
+          "why": "五岭广场商圈，次日清晨去东江湖约 1 小时 10 分",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "入住",
+            "source": "computed",
+            "source_ref": "房费见住宿"
+          },
+          "slot_costs": []
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 366,
+          "distance_m": 441698,
+          "description": "自驾：深圳→京港澳G4→郴州→郴仰公路（约 6 小时 6 分，442km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 224,
+            "max": 224,
+            "currency": "CNY",
+            "unit": "per_order",
+            "quantity": 1,
+            "total_min": 224,
+            "total_max": 224,
+            "label": "高速费",
+            "source": "amap-rest-api",
+            "source_ref": "maps_direction_driving tolls"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 102,
+          "distance_m": 55004,
+          "description": "自驾下山：郴仰公路→郴州市区（约 1 小时 42 分，55km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "高速费",
+            "source": "computed",
+            "source_ref": "无收费"
+          }
+        }
+      ],
+      "meals": {
+        "lunch": {
+          "main": {
+            "name": "金国鱼粉（五岭国际店）",
+            "why": "栖凤渡鱼粉：郴州早餐/简餐顶流，抵达后顺路",
+            "lng": 113.018182,
+            "lat": 25.765132,
+            "price": {
+              "min": 15,
+              "max": 25,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 30,
+              "total_max": 50,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "郴州本地鱼粉人均调研"
+            }
+          },
+          "alt": {
+            "name": "罗记栖凤渡鱼粉王（南湖路店）",
+            "why": "如金国排队，罗记同为老字号"
+          }
+        },
+        "dinner": {
+          "main": {
+            "name": "高子烧鸡公（五里堆路店）",
+            "why": "郴州招牌烧鸡公，本地人气店",
+            "lng": 113.020159,
+            "lat": 25.787245,
+            "price": {
+              "min": 60,
+              "max": 90,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 120,
+              "total_max": 180,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "郴州烧鸡公人均调研"
+            }
+          },
+          "alt": {
+            "name": "顶家家（龙泉路店）",
+            "why": "湘菜连锁更近酒店，口味稳"
+          }
+        }
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-08-15",
+      "weekday": "周六",
+      "region": "东江湖 · 雾漫小东江（资兴）→ 连州市区",
+      "theme": "清晨观雾 · 撒网打卡 · 跨城连州",
+      "weather": "多云 31℃",
+      "weather_emoji": "⛅",
+      "weather_decision": "观雾看天：前晚晴朗＋清晨温差大雾最浓，6:00–7:30 最惊艳；若大风/下雨无雾，改龙景峡谷徒步＋东江湖大坝。",
+      "region_flex": true,
+      "center": [
+        113.264152,
+        25.934424
+      ],
+      "zoom": 11,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "06:30",
+          "name": "雾漫小东江（2号观景台）",
+          "cat": "scenery",
+          "duration_min": 180,
+          "lng": 113.276976,
+          "lat": 25.915224,
+          "note": "晨雾最佳 5:30–8:30（6:00–7:30 最惊艳）；撒网表演约 7:00–10:00，每 15 分钟一场；乘景区环保车到 2 号观景台，沿栈道走到 4 号桥（约 2km）；观湖线门票 80–85 元提前线上买、刷身份证入园；江边蚊子多，带驱蚊液。",
+          "why": "《中国国家地理》力荐的『中华奇景』，8 月雾最浓",
+          "weather_sensitive": true,
+          "requires_booking": true,
+          "indoor_backup": "雾散/无雾改：龙景峡谷瀑布徒步＋东江大坝观景（A线已含）",
+          "price": {
+            "min": 80,
+            "max": 85,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 2,
+            "total_min": 160,
+            "total_max": 170,
+            "label": "门票（观湖线）",
+            "source": "ctrip-webfetch",
+            "source_ref": "去哪儿/携程观湖线 80–85 元含景交"
+          },
+          "slot_costs": [
+            {
+              "label": "龙景峡谷（可选）",
+              "price": {
+                "min": 0.0,
+                "max": 0.0,
+                "currency": "CNY",
+                "unit": "free",
+                "quantity": 1,
+                "total_min": 0.0,
+                "total_max": 0.0,
+                "label": "A线已含",
+                "source": "computed",
+                "source_ref": "含在门票内"
+              }
+            }
+          ],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 2,
+          "time": "11:30",
+          "name": "午餐 · 东江湖三文鱼",
+          "cat": "food",
+          "duration_min": 60,
+          "lng": 113.259447,
+          "lat": 25.935908,
+          "note": "渔美人三文鱼餐厅（东江总店）：东江湖淡水虹鳟/金鳟一鱼多吃（刺身＋鱼头汤＋煎鱼骨）；饭后 12:45 出发连州。",
+          "why": "东江湖特色，刺身一盘约 98 元",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": [],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 3,
+          "time": "15:30",
+          "name": "抵达连州市区 · 入住",
+          "cat": "transport",
+          "duration_min": 60,
+          "lng": 112.381795,
+          "lat": 24.787551,
+          "note": "入住连州国际大酒店（番禺路）；下午可选加餐：湟川三峡游船（距市区约 20km，船游 1.5h，体力与时间充裕可去）或慧光塔（千年古塔）；晚餐：印象连乡（连州本地菜：东陂腊味、丰阳牛肉干、水角）。",
+          "why": "市中心近清连高速入口，次日去地下河顺路",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "入住",
+            "source": "computed",
+            "source_ref": "房费见住宿"
+          },
+          "slot_costs": [
+            {
+              "label": "晚餐·印象连乡",
+              "price": {
+                "min": 60,
+                "max": 90,
+                "currency": "CNY",
+                "unit": "per_person",
+                "quantity": 2,
+                "total_min": 120,
+                "total_max": 180,
+                "label": "餐饮",
+                "source": "ctrip-webfetch",
+                "source_ref": "连州本地菜人均调研"
+              }
+            }
+          ]
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 0,
+          "to_idx": 1,
+          "mode": "driving",
+          "duration_min": 68,
+          "distance_m": 39454,
+          "description": "自驾：五岭广场→京港澳G4→资兴（约 1 小时 8 分，39km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "高速费",
+            "source": "computed",
+            "source_ref": "无收费"
+          }
+        },
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 11,
+          "distance_m": 3979,
+          "description": "自驾：雾漫小东江→渔美人三文鱼餐厅（约 11 分钟，4km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 166,
+          "distance_m": 186672,
+          "description": "自驾：资兴→京港澳G4→宜章→宜连高速→连州（约 2 小时 46 分，187km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 64,
+            "max": 64,
+            "currency": "CNY",
+            "unit": "per_order",
+            "quantity": 1,
+            "total_min": 64,
+            "total_max": 64,
+            "label": "高速费",
+            "source": "amap-rest-api",
+            "source_ref": "maps_direction_driving tolls"
+          }
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "main": {
+            "name": "东江老字号栖枫渡鱼粉",
+            "why": "观雾后早餐，资兴本地鱼粉",
+            "lng": 113.255584,
+            "lat": 25.938396,
+            "price": {
+              "min": 15,
+              "max": 25,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 30,
+              "total_max": 50,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "本地粉面人均"
+            }
+          },
+          "alt": {
+            "name": "杀猪粉（东江镇早市）",
+            "why": "当地早餐另一招牌"
+          }
+        },
+        "lunch": {
+          "main": {
+            "name": "渔美人三文鱼餐厅（东江湖总店）",
+            "why": "东江湖三文鱼一鱼多吃，区域顺路",
+            "lng": 113.259447,
+            "lat": 25.935908,
+            "price": {
+              "min": 80,
+              "max": 120,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 160,
+              "total_max": 240,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "三文鱼刺身 98 元/盘 调研"
+            }
+          },
+          "alt": {
+            "name": "壹湖两岸·鱼鲜山里菜（东江湖店）",
+            "why": "同商圈备选，鱼鲜为主"
+          }
+        }
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-08-16",
+      "weekday": "周日",
+      "region": "连州地下河 · 东陂镇",
+      "theme": "5A 溶洞探秘 · 午饭后返程",
+      "weather": "多云转雷阵雨 34℃",
+      "weather_emoji": "🌦️",
+      "weather_decision": "地下河洞内恒温 18–22℃ 不受天气影响；返程留意午后雷阵雨，雨天减速慢行、加大跟车距离。",
+      "center": [
+        112.317,
+        24.997
+      ],
+      "zoom": 13,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "08:00",
+          "name": "连州国际大酒店 · 出发",
+          "cat": "hotel",
+          "duration_min": 20,
+          "lng": 112.381795,
+          "lat": 24.787551,
+          "note": "退房出发，导航『连州地下河停车场』；早餐可到东陂镇解决（水角、沙坊粉）。",
+          "why": "清晨出发避开周末上午人流",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "出发",
+            "source": "computed",
+            "source_ref": "房费见住宿"
+          },
+          "slot_costs": [],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 2,
+          "time": "09:30",
+          "name": "连州地下河（国家5A）",
+          "cat": "scenery",
+          "duration_min": 150,
+          "lng": 112.32985,
+          "lat": 25.006742,
+          "note": "『广东地下第一河』：先步行陆地层（仙人神田、顶天柱）再乘船游 1500m 地下暗河（龙门峡/莲花峡/香蕉峡），全程讲解约 1.5–2.5h；洞内 18–22℃ 带薄外套、部分路段滴水湿滑；门票 120 元含游船讲解（线上常有 10–20 元优惠）；停车 10 元/次；出口可尝洞藏黄精糯米酒。",
+          "why": "避暑天花板，8 月洞内宛如天然空调",
+          "price": {
+            "min": 108,
+            "max": 120,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 2,
+            "total_min": 216,
+            "total_max": 240,
+            "label": "门票",
+            "source": "ctrip-webfetch",
+            "source_ref": "携程/本地宝：线上约108 门市120"
+          },
+          "slot_costs": [
+            {
+              "label": "停车场",
+              "price": {
+                "min": 10,
+                "max": 10,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 10,
+                "total_max": 10,
+                "label": "停车",
+                "source": "ctrip-webfetch",
+                "source_ref": "景区停车 10 元/次"
+              }
+            },
+            {
+              "label": "洞藏黄精糯米酒（可选）",
+              "price": {
+                "min": 0.0,
+                "max": 0.0,
+                "currency": "CNY",
+                "unit": "free",
+                "quantity": 1,
+                "total_min": 0.0,
+                "total_max": 0.0,
+                "label": "可选伴手礼",
+                "source": "computed",
+                "source_ref": "按需购买"
+              }
+            }
+          ],
+          "next_mode": "driving"
+        },
+        {
+          "idx": 3,
+          "time": "12:15",
+          "name": "东陂午餐 · 自驾返深圳",
+          "cat": "transport",
+          "duration_min": 90,
+          "lng": 112.317254,
+          "lat": 24.997137,
+          "note": "午餐：乡村私房菜（东陂镇大洞村，农家菜＋东陂腊味，人均 40–60）；饭后约 13:45 启程返深圳：清连高速（许广G0421）→广清→广州绕城→京港澳G4，约 391km、5 小时，预计 18:45 抵深（周日晚车流大，尽量赶在晚高峰前）。",
+          "why": "午饭后返程，一鼓作气到家",
+          "price": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": [
+            {
+              "label": "返程高速费（连州→深圳）",
+              "price": {
+                "min": 187,
+                "max": 187,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 187,
+                "total_max": 187,
+                "label": "高速费",
+                "source": "amap-rest-api",
+                "source_ref": "maps_direction_driving tolls"
+              }
+            }
+          ]
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 40,
+          "distance_m": 29302,
+          "description": "自驾：连州市区→S114→东陂镇（约 40 分钟，29km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "高速费",
+            "source": "computed",
+            "source_ref": "无收费"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 7,
+          "distance_m": 1815,
+          "description": "自驾：地下河→东陂镇午餐（约 7 分钟，1.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0.0,
+            "max": 0.0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0.0,
+            "total_max": 0.0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "main": {
+            "name": "东陂水角店（东陂镇新华路）",
+            "why": "连州五百年历史小吃，顺路早餐",
+            "lng": 112.302347,
+            "lat": 24.992559,
+            "price": {
+              "min": 10,
+              "max": 20,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 20,
+              "total_max": 40,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "连州小吃人均"
+            }
+          },
+          "alt": {
+            "name": "酒店早餐",
+            "why": "赶时间就在酒店吃"
+          }
+        },
+        "lunch": {
+          "main": {
+            "name": "乡村私房菜（东陂镇大洞村）",
+            "why": "地下河旁农家菜，东陂腊味＋柴火菜",
+            "lng": 112.317254,
+            "lat": 24.997137,
+            "price": {
+              "min": 40,
+              "max": 60,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 80,
+              "total_max": 120,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "东陂镇农家菜人均调研"
+            }
+          },
+          "alt": {
+            "name": "名轩食府（东陂镇兴东路）",
+            "why": "镇中心备选，菜式更全"
+          }
+        }
+      }
+    }
+  ],
+  "deleted": [
+    {
+      "item": "高椅岭旅游区（郴州丹霞）",
+      "reason": "D1 已排满仰天湖＋往返 6.5h 车程，3 天不加点；下次郴州专程游可安排"
+    },
+    {
+      "item": "莽山国家森林公园",
+      "reason": "位于郴州西南、与环线方向相反，往返至少多 2 天"
+    },
+    {
+      "item": "湟川三峡游船（D2 下午）",
+      "reason": "15:30 才到连州，再叠加船游 1.5h 会拖到深夜；列为可选，压缩时可去"
+    },
+    {
+      "item": "南岗千年瑶寨",
+      "reason": "方向需绕行，3 日时间不足"
+    },
+    {
+      "item": "东江湖B线游船＋兜率溶洞",
+      "reason": "多花 3 小时会挤压跨城连州行程，选 A 线观湖已覆盖精华"
+    }
+  ],
+  "prebook": [
+    {
+      "item": "仰天湖大草原门票",
+      "deadline": "出发前 1 天（线上实名预订）",
+      "url": "https://www.beihu.gov.cn/content/646942/61/15231210.html",
+      "note": "Day 1 15:00 前入园；线上提前订 72 元、即买 80 元、门市 120 元；官方公众号/美团/携程均可",
+      "day": 1,
+      "price": {
+        "min": 72,
+        "max": 80,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 144,
+        "total_max": 160,
+        "label": "门票",
+        "source": "official-site",
+        "source_ref": "北湖区政府线上预订公告"
+      }
+    },
+    {
+      "item": "东江湖观湖线门票（雾漫小东江）",
+      "deadline": "出发前 1 天（线上购票）",
+      "url": "https://you.ctrip.com/sight/chenzhou336.html",
+      "note": "Day 2 06:30 刷身份证入园；观湖线 80–85 元含景区环保车；2 号观景台看撒网",
+      "day": 2,
+      "price": {
+        "min": 80,
+        "max": 85,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 160,
+        "total_max": 170,
+        "label": "门票",
+        "source": "ctrip-webfetch",
+        "source_ref": "携程/去哪儿观湖线实价"
+      }
+    },
+    {
+      "item": "连州地下河门票",
+      "deadline": "出发前 1 天（线上购票）",
+      "url": "https://you.ctrip.com/sight/lianzhou1141/17609.html",
+      "note": "Day 3 09:30 入园；120 元含游船＋讲解，线上常有 10–20 元优惠；8:30/9:00 开放",
+      "day": 3,
+      "price": {
+        "min": 108,
+        "max": 120,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 216,
+        "total_max": 240,
+        "label": "门票",
+        "source": "ctrip-webfetch",
+        "source_ref": "携程/本地宝实价"
+      }
+    },
+    {
+      "item": "维也纳国际酒店（郴州五岭广场店）",
+      "deadline": "出发前 2 周",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E9%83%B4%E5%B7%9E&keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%E4%BA%94%E5%B2%AD%E5%B9%BF%E5%9C%BA",
+      "note": "D1 入住；五岭广场商圈，220–360 元/晚",
+      "price": {
+        "min": 220,
+        "max": 360,
+        "currency": "CNY",
+        "unit": "per_night",
+        "quantity": 1,
+        "total_min": 220,
+        "total_max": 360,
+        "label": "住宿",
+        "source": "ctrip-webfetch",
+        "source_ref": "携程同商圈连锁实价"
+      }
+    },
+    {
+      "item": "连州国际大酒店",
+      "deadline": "出发前 1 周",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E8%BF%9E%E5%B7%9E&keyword=%E8%BF%9E%E5%B7%9E%E5%9B%BD%E9%99%85%E5%A4%A7%E9%85%92%E5%BA%97",
+      "note": "D2 入住；市中心番禺路，200–350 元/晚",
+      "price": {
+        "min": 200,
+        "max": 350,
+        "currency": "CNY",
+        "unit": "per_night",
+        "quantity": 1,
+        "total_min": 200,
+        "total_max": 350,
+        "label": "住宿",
+        "source": "ctrip-webfetch",
+        "source_ref": "携程实价调研"
+      }
+    }
+  ],
+  "party_size": 2,
+  "xhs_destination_brief": {
+    "city": "郴州（仰天湖/东江湖）＋连州",
+    "keywords_searched": [
+      "仰天湖大草原 攻略 避雷",
+      "雾漫小东江 避雷 撒网时间",
+      "连州地下河 攻略 注意事项"
+    ],
+    "source": "web-research（Exa 检索携程/本地宝/政府公告，小红书 CLI 未配置）",
+    "degraded": true,
+    "must_visit": [
+      {
+        "name": "雾漫小东江",
+        "why": "多篇攻略列为『必看』：2–4 号桥段精华，撒网 7:00–10:00 每 15 分钟一场"
+      },
+      {
+        "name": "仰天湖大草原",
+        "why": "『南方最美高山草原』：晴天出行、观光车 50 元通票必买、山顶日落出片"
+      },
+      {
+        "name": "连州地下河",
+        "why": "5A 溶洞水陆双游，8 月避暑天花板，洞内恒温 18–22℃"
+      }
+    ],
+    "skip_or_caution": [
+      {
+        "name": "雨天/大风天看雾",
+        "why": "雾漫小东江靠温差起雾：大风暴雨=无雾，出发前看天气"
+      },
+      {
+        "name": "仰天湖盘山公路",
+        "why": "后半段弯道多，晕车药必备；新手司机慎开"
+      },
+      {
+        "name": "景区内餐饮",
+        "why": "仰天湖/东江湖景区内餐饮贵，山下农家乐人均 40–50 更值"
+      },
+      {
+        "name": "连州菜心",
+        "why": "冬春当季，8 月非应季"
+      }
+    ],
+    "region_layout": [
+      {
+        "region": "郴州市区",
+        "note": "五岭广场商圈住宿＋烧鸡公/鱼粉，D1 夜宿"
+      },
+      {
+        "region": "资兴·东江湖",
+        "note": "清晨雾漫小东江＋三文鱼午餐"
+      },
+      {
+        "region": "连州·东陂镇",
+        "note": "地下河＋东陂腊味/水角，D2 夜宿连州市区"
+      }
+    ],
+    "rhythm": "D1 赶路（6.5h）+草原，D2 早起观雾＋跨城，D3 上午钻洞、午后返程"
+  },
+  "budget_summary": {
+    "currency": "CNY",
+    "by_category": {
+      "transport": {
+        "min": 1165,
+        "max": 1280,
+        "note": "高速费 475（深圳→仰天湖224＋资兴→连州64＋连州→深圳187）＋油费 690–805"
+      },
+      "tickets": {
+        "min": 630,
+        "max": 680,
+        "note": "仰天湖门票+观光车 244–260 ＋ 东江湖 160–170 ＋ 地下河+停车 226–250"
+      },
+      "food": {
+        "min": 560,
+        "max": 860,
+        "note": "鱼粉/烧鸡公/三文鱼/东陂农家菜"
+      },
+      "hotel": {
+        "min": 420,
+        "max": 710,
+        "nights": 2
+      }
+    },
+    "total_min": 2775,
+    "total_max": 3530,
+    "per_person_min": 1388,
+    "per_person_max": 1765,
+    "disclaimer": "价格为调研日参考（2 人分摊后人均约 1388–1765 元），不含购物；门票/酒店以平台实时为准"
+  },
+  "validation_report": {
+    "rounds": [
+      {
+        "round": 1,
+        "phase": "???",
+        "focus": "???????????????",
+        "issues": [
+          "??? 3 ??????D1 ????????????D2 ??????????????????D3 ??????",
+          "????????????? D2 ?? 06:30 ???D1 ?????????",
+          "????????????? region_flex=true???????????",
+          "????????????????????????? deleted[]???????/?????????????",
+          "V7 ???????????? POI"
+        ],
+        "conclusion": "????? Round 2",
+        "rules": [
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "含跨区返程（仰天湖大草原 → 郴州市区），region_flex=true 跳过最远距离检查"
+          },
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "含跨区返程（东江湖 · 雾漫小东江（资兴）→ 连州市区），region_flex=true 跳过最远距离检查"
+          },
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "末日（连州地下河 · 东陂镇），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 1 当日预约 1 条：仰天湖大草原门票",
+            "count": 1
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 2 当日预约 1 条：东江湖观湖线门票（雾漫小东江）",
+            "count": 1
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 3 当日预约 1 条：连州地下河门票",
+            "count": 1
+          },
+          {
+            "id": "V11",
+            "rule": "prebook 国内 OTA 链接（v2.2.1）",
+            "status": "✅",
+            "note": "prebook 链接均为国内携程深链或官方站"
+          },
+          {
+            "id": "V7",
+            "rule": "??????",
+            "status": "?",
+            "note": "??????????????????????????? POI?AI ???",
+            "source": "ai-only"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "phase": "???",
+        "focus": "???????????",
+        "issues": [
+          "?? REST ?? 7 ????source=amap-rest-api???????? 366min/442km??????? 102min??????? 68min??????? 11min?????? 166min/187km??????? 40min??????? 7min",
+          "D2 ?????????? 187km ?????????????????????V2 ???? 44.1% ? ?? ??????? 166min ???????",
+          "POI ? next_mode=driving ? V2 ??????????????? 20km/h ????? 466min ???",
+          "V9?7 ? duration_min ? ? ?????55%??????",
+          "?? D3 ?????V5 ??"
+        ],
+        "conclusion": "????? Round 3",
+        "rules": [
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "✅",
+            "note": "通勤占总时长 17.3%；最远段 50 min（仰天湖大草原景区→抵达郴州市区 · 入住，**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.173
+          },
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "⚠️",
+            "note": "通勤占总时长 44.1%；最远段 233 min（午餐 · 东江湖三文鱼→抵达连州市区 · 入住，**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.441
+          },
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "✅",
+            "note": "通勤占总时长 13.3%；最远段 37 min（连州国际大酒店 · 出发→连州地下河（国家5A），**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.133
+          },
+          {
+            "id": "V5",
+            "rule": "末日返程缓冲",
+            "status": "✅",
+            "note": "无返程票，跳过"
+          },
+          {
+            "id": "V8",
+            "rule": "MCP 必跑痕迹",
+            "status": "✅",
+            "note": "全部 7 段 transport 含合法 source 与 duration_min"
+          },
+          {
+            "id": "V9",
+            "rule": "通勤时间下限（高德实算）",
+            "status": "✅",
+            "note": "全部 7 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+          },
+          {
+            "id": "V13",
+            "rule": "酒店早晚通勤",
+            "status": "✅",
+            "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "phase": "???",
+        "focus": "?????????????",
+        "issues": [
+          "V3 ?????? 1.5km ?????????? 1.59km?????? 1.56km???? 3km ????????????????????",
+          "?? POI????/???/?????? indoor_backup ??????D3 ?? 8/16 ???????????? 18-22? ????????",
+          "V10 ??????????? slot_costs????/??/??/????????? 2775-3530 ?????????????????????",
+          "???????/??/?????????????? source?? ai-guess"
+        ],
+        "conclusion": "????? Step 6-7",
+        "rules": [
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "⚠️",
+            "note": "最远餐厅「高子烧鸡公（五里堆路店）」(dinner) 离主区域 1.59 km（阈值 1.5/3.0）",
+            "worst_km": 1.59
+          },
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "✅",
+            "note": "最远餐厅「东江老字号栖枫渡鱼粉」(breakfast) 离主区域 0.96 km（阈值 1.5/3.0）",
+            "worst_km": 0.96
+          },
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "⚠️",
+            "note": "最远餐厅「东陂水角店（东陂镇新华路）」(breakfast) 离主区域 1.56 km（阈值 1.5/3.0）",
+            "worst_km": 1.56
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V10",
+            "rule": "价格溯源（v2.1.0 新增）",
+            "status": "⚠️",
+            "note": "budget_summary.total_min(2775) 与时间轴明细加总(1668) 偏差 40%",
+            "warnings": [
+              "budget_summary.total_min(2775) 与时间轴明细加总(1668) 偏差 40%"
+            ]
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "含跨区返程（仰天湖大草原 → 郴州市区），region_flex=true 跳过最远距离检查"
+      },
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "含跨区返程（东江湖 · 雾漫小东江（资兴）→ 连州市区），region_flex=true 跳过最远距离检查"
+      },
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "末日（连州地下河 · 东陂镇），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "✅",
+        "note": "通勤占总时长 17.3%；最远段 50 min（仰天湖大草原景区→抵达郴州市区 · 入住，**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.173
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "⚠️",
+        "note": "通勤占总时长 44.1%；最远段 233 min（午餐 · 东江湖三文鱼→抵达连州市区 · 入住，**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.441
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "✅",
+        "note": "通勤占总时长 13.3%；最远段 37 min（连州国际大酒店 · 出发→连州地下河（国家5A），**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.133
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "⚠️",
+        "note": "最远餐厅「高子烧鸡公（五里堆路店）」(dinner) 离主区域 1.59 km（阈值 1.5/3.0）",
+        "worst_km": 1.59
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "✅",
+        "note": "最远餐厅「东江老字号栖枫渡鱼粉」(breakfast) 离主区域 0.96 km（阈值 1.5/3.0）",
+        "worst_km": 0.96
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "⚠️",
+        "note": "最远餐厅「东陂水角店（东陂镇新华路）」(breakfast) 离主区域 1.56 km（阈值 1.5/3.0）",
+        "worst_km": 1.56
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 1 当日预约 1 条：仰天湖大草原门票",
+        "count": 1
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 2 当日预约 1 条：东江湖观湖线门票（雾漫小东江）",
+        "count": 1
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 3 当日预约 1 条：连州地下河门票",
+        "count": 1
+      },
+      {
+        "id": "V5",
+        "rule": "末日返程缓冲",
+        "status": "✅",
+        "note": "无返程票，跳过"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V8",
+        "rule": "MCP 必跑痕迹",
+        "status": "✅",
+        "note": "全部 7 段 transport 含合法 source 与 duration_min"
+      },
+      {
+        "id": "V9",
+        "rule": "通勤时间下限（高德实算）",
+        "status": "✅",
+        "note": "全部 7 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+      },
+      {
+        "id": "V10",
+        "rule": "价格溯源（v2.1.0 新增）",
+        "status": "⚠️",
+        "note": "budget_summary.total_min(2775) 与时间轴明细加总(1668) 偏差 40%",
+        "warnings": [
+          "budget_summary.total_min(2775) 与时间轴明细加总(1668) 偏差 40%"
+        ]
+      },
+      {
+        "id": "V11",
+        "rule": "prebook 国内 OTA 链接（v2.2.1）",
+        "status": "✅",
+        "note": "prebook 链接均为国内携程深链或官方站"
+      },
+      {
+        "id": "V13",
+        "rule": "酒店早晚通勤",
+        "status": "✅",
+        "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+      },
+      {
+        "id": "V7",
+        "rule": "??????",
+        "status": "?",
+        "note": "??????????????????????????? POI?AI ???",
+        "source": "ai-only"
+      }
+    ],
+    "summary": "17 通过 / 4 警告 / 0 失败（全量复检；**V7 用户禁忌需 AI 自行核对**）",
+    "note": "AI ?? V7???????????????????? V1/V3/V4/V5/V6/V8/V9 ???"
+  },
+  "trip_slug": "shenzhen-2026-08-14"
+}
