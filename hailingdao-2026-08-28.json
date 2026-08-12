@@ -1,0 +1,1545 @@
+{
+  "$schema": "./README.md#schema",
+  "amap_key": "",
+  "trip_name": "深圳→阳江海陵岛 3日自驾（大角湾·十里银滩·北洛秘境）",
+  "date_range": "2026-08-28 ~ 2026-08-30（日期待定，可按需调整）",
+  "n_days": "3 天 2 夜",
+  "city": "深圳出发 · 阳江海陵岛",
+  "trip_slug": "hailingdao-2026-08-28",
+  "party_size": 2,
+  "trip_center": [
+    111.86,
+    21.58
+  ],
+  "summary": "J 人休闲漫游版：深圳自驾约 3.5 小时上岛。D1 大角湾玩水→马尾岛橘子海日落→一夜埕海鲜街夜宵，宿闸坡；D2 十里银滩日出→南海一号沉船博物馆→北洛秘境悬崖泳池→螺洲公园散步，宿十里银滩；D3 地拿海小众礁石海岸→宋康大道兜风→午餐后返深。全程约 630km，节奏松紧有度、吃喝玩乐一条龙。",
+  "weather_plan": "阳江 8 月末仍处高温〔近 36℃〕＋午后多雷阵雨、台风季：出发前 3 天用高德天气实查，台风/暴雨预警建议改期。海岛紫外线极强，防晒衣/帽/墨镜/高倍防晒必备，海边风大带薄外套；赶海与日出先查潮汐与天气。",
+  "hotel": {
+    "name": "阳江海陵岛闸坡海之冠大酒店",
+    "address": "闸坡镇海滨路66号（一夜埕海鲜街旁）",
+    "lng": 111.839992,
+    "lat": 21.568007,
+    "amap_uri": "https://uri.amap.com/marker?position=111.839992,21.568007&name=%E6%B5%B7%E4%B9%8B%E5%86%A0%E5%A4%A7%E9%85%92%E5%BA%97",
+    "why": "闸坡镇中心海滨路，步行到一夜埕海鲜街与大角湾约 10 分钟；D2 清晨去十里银滩看日出约 22 分钟。D2 晚换宿十里银滩鲸鱼智能酒店（海景，看日出方便）。",
+    "plan": "D1 夜宿海之冠大酒店（闸坡）；D2 夜宿海陵岛鲸鱼智能酒店（十里银滩万豪海陵湾一号）",
+    "price": {
+      "min": 350,
+      "max": 700,
+      "currency": "CNY",
+      "unit": "per_night",
+      "quantity": 2,
+      "total_min": 700,
+      "total_max": 1400,
+      "label": "住宿（2晚：闸坡海之冠＋十里银滩鲸鱼）",
+      "source": "ctrip-webfetch",
+      "source_ref": "住哪去民宿网 2026-07：闸坡酒店 300-600/晚、十里银滩海景 500-1000/晚"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-28",
+      "weekday": "周五",
+      "region": "闸坡镇 · 大角湾（海陵岛西岸）",
+      "theme": "上岛 · 玩水 · 橘子海日落 · 海鲜街夜宵",
+      "weather": "待出行前 3 天实查（8 月末阳江高温〔36℃〕＋午后雷阵雨，台风季）",
+      "weather_emoji": "⛅",
+      "weather_decision": "大角湾玩水避开正午暴晒；雷雨改南海一号博物馆＋小旭糖水掂；马尾岛日落看天，阴雨改海鲜街＋室内。",
+      "region_flex": true,
+      "center": [
+        111.847,
+        21.57
+      ],
+      "zoom": 13,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "06:30",
+          "name": "深圳自驾出发",
+          "cat": "transport",
+          "duration_min": 15,
+          "note": "导航『海陵岛闸坡镇』：G15沈海高速→海陵大桥上岛，约 312km / 3 小时 27 分。省钱：提前『高新区』下高速改走海陵大堤上岛，每趟可省约 30 元高速费。电车满电出发，沈海服务区有快充；车上备防晒、泳具、薄外套。",
+          "why": "全程高速，早出发避开出城高峰，中午前上岛",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "出发",
+            "source": "computed",
+            "source_ref": "零元"
+          },
+          "slot_costs": [
+            {
+              "label": "电费（全程约630km，电车）",
+              "price": {
+                "min": 252,
+                "max": 252,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 252,
+                "total_max": 252,
+                "label": "电费",
+                "source": "computed",
+                "source_ref": "按 0.4 元/km×630km 估算（电车）"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "time": "11:00",
+          "name": "午餐 · 顺品美食店",
+          "cat": "food",
+          "duration_min": 60,
+          "lng": 111.843346,
+          "lat": 21.570943,
+          "note": "闸坡旅游大道中68号，现捞海鲜大排档，上岛第一顿。饭后回酒店放行李（海之冠，约 2 分钟车程）。",
+          "why": "J 人攻略人气海鲜店，近大角湾顺路",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 3,
+          "time": "14:00",
+          "name": "大角湾海上丝路旅游区",
+          "cat": "scenery",
+          "duration_min": 180,
+          "lng": 111.847476,
+          "lat": 21.569849,
+          "note": "国家 5A 海滨浴场，滩长 2.5km：游泳、摩托艇（约 100-150 元/10 分钟）、冲浪、海上乐园。旺季 8:00-21:30，线上购票刷码入园；1.2m 以上儿童/60 岁以上老人半价。",
+          "why": "岛上最适合玩水的海湾，J 人攻略首站",
+          "weather_sensitive": true,
+          "requires_booking": true,
+          "indoor_backup": "雷雨/暴晒改：南海一号博物馆＋小旭糖水掂",
+          "price": {
+            "min": 49,
+            "max": 94,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 2,
+            "total_min": 98,
+            "total_max": 188,
+            "label": "门票（5A）",
+            "source": "ctrip-webfetch",
+            "source_ref": "住哪去民宿网 2026-07：大角湾 49-94 元"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 4,
+          "time": "17:30",
+          "name": "马尾岛 · 日落赶海",
+          "cat": "scenery",
+          "duration_min": 90,
+          "lng": 111.816769,
+          "lat": 21.562221,
+          "note": "全岛最佳日落机位，傍晚海面呈蜜糖色（『橘子海』）；退潮后礁石区可赶海。日落约 18:40-19:00，提前占位。",
+          "why": "J 人攻略限定玩法：日落＋赶海",
+          "weather_sensitive": true,
+          "indoor_backup": "阴雨改：一夜埕海鲜街＋小旭糖水掂",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "免费开放"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 5,
+          "time": "19:30",
+          "name": "一夜埕海鲜街 · 晚餐",
+          "cat": "food",
+          "duration_min": 90,
+          "lng": 111.840167,
+          "lat": 21.569848,
+          "note": "闸坡迎宾路海味街：顺品美食店·现捞海鲜（主推）、海汐；饭后小旭糖水掂（糖水）、茶茶巫（饮品）；海味干货当伴手礼（渔礼·予你）。",
+          "why": "J 人攻略吃喝一条街，晚餐＋夜逛",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": [
+            {
+              "label": "糖水/饮品（小旭·茶茶巫）",
+              "price": {
+                "min": 30,
+                "max": 50,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 30,
+                "total_max": 50,
+                "label": "糖水饮品",
+                "source": "ctrip-webfetch",
+                "source_ref": "J 人攻略店均 15-25 元/人"
+              }
+            }
+          ]
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 207,
+          "distance_m": 311900,
+          "description": "自驾：深圳→G15沈海高速→海陵大桥→闸坡（约 3 小时 27 分，312km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 253,
+            "max": 253,
+            "currency": "CNY",
+            "unit": "per_order",
+            "quantity": 1,
+            "total_min": 253,
+            "total_max": 253,
+            "label": "高速费",
+            "source": "amap-rest-api",
+            "source_ref": "maps_direction_driving tolls"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 5,
+          "distance_m": 1000,
+          "description": "自驾：顺品美食店→大角湾（约 5 分钟）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "driving",
+          "duration_min": 18,
+          "distance_m": 4400,
+          "description": "自驾：大角湾→马尾岛（约 18 分钟，4.4km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 5,
+          "mode": "driving",
+          "duration_min": 11,
+          "distance_m": 3600,
+          "description": "自驾：马尾岛→一夜埕海鲜街（约 11 分钟，3.6km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 5,
+          "to_idx": 0,
+          "mode": "driving",
+          "duration_min": 2,
+          "distance_m": 400,
+          "description": "自驾：一夜埕→海之冠大酒店（回酒店，约 2 分钟）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        }
+      ],
+      "meals": {
+        "lunch": {
+          "main": {
+            "name": "顺品美食店（旅游大道店）",
+            "why": "现捞海鲜大排档",
+            "lng": 111.843346,
+            "lat": 21.570943,
+            "price": {
+              "min": 60,
+              "max": 90,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 120,
+              "total_max": 180,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "J 人攻略现捞海鲜人均 60-90"
+            }
+          },
+          "alt": {
+            "name": "宝记海鲜大碗粉·猪肠碌",
+            "why": "本地猪肠碌早餐/快餐备选"
+          }
+        },
+        "dinner": {
+          "main": {
+            "name": "一夜埕海鲜街（顺品/海汐）",
+            "why": "J 人攻略晚餐主街",
+            "lng": 111.840167,
+            "lat": 21.569848,
+            "price": {
+              "min": 75,
+              "max": 110,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 150,
+              "total_max": 220,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "J 人攻略海鲜街人均 75-110"
+            }
+          },
+          "alt": {
+            "name": "闸坡市场买海鲜+加工",
+            "why": "更划算，需自己动手"
+          }
+        }
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-08-29",
+      "weekday": "周六",
+      "region": "十里银滩 · 北洛湾（海陵岛环岛）",
+      "theme": "日出 · 沉船博物馆 · 悬崖泳池 · 海岸散步",
+      "weather": "待出行前 3 天实查（8 月末阳江高温〔36℃〕＋午后雷阵雨，台风季）",
+      "weather_emoji": "⛅",
+      "weather_decision": "日出看天：晴天 05:30 出发；阴雨改睡到自然醒＋南海一号提前。北洛泳池下午雷雨概率高，可改室内或提前。",
+      "region_flex": true,
+      "center": [
+        111.886,
+        21.585
+      ],
+      "zoom": 12,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "05:30",
+          "name": "十里银滩 · 日出",
+          "cat": "scenery",
+          "duration_min": 90,
+          "lng": 111.896894,
+          "lat": 21.588599,
+          "note": "吉尼斯认证最长海滩之一（16.5km），白石英砂细腻；日出约 06:10-06:30，清晨人少最出片；看完在万豪/保利商圈早餐（蓉意餐厅）。",
+          "why": "海陵岛王牌海滩，日出机位 top1",
+          "weather_sensitive": true,
+          "indoor_backup": "阴雨改：睡到自然醒＋南海一号提前入场",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "免费开放"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 2,
+          "time": "09:30",
+          "name": "南海一号博物馆",
+          "cat": "scenery",
+          "duration_min": 120,
+          "lng": 111.873889,
+          "lat": 21.573124,
+          "note": "广东海上丝绸之路博物馆：800 年宋代沉船『南海一号』+瓷器丝绸出水文物；9:00-17:30（17:00 停止售票），周一闭馆；节假日全票 8 折 56 元。",
+          "why": "国内首座海丝主题博物馆，J 人攻略人文担当",
+          "requires_booking": true,
+          "price": {
+            "min": 70,
+            "max": 70,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 2,
+            "total_min": 140,
+            "total_max": 140,
+            "label": "门票",
+            "source": "official-site",
+            "source_ref": "msrmuseum.com 官网：70 元/人，节假日 56 元"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 3,
+          "time": "12:30",
+          "name": "午餐 · 海汐（保利银滩店）",
+          "cat": "food",
+          "duration_min": 60,
+          "lng": 111.88333,
+          "lat": 21.584128,
+          "note": "十里银滩西区保利银滩 H 区，现捞海鲜+本地菜，顺路午休。",
+          "why": "J 人攻略保利商圈海鲜店，紧邻酒店区",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 4,
+          "time": "14:30",
+          "name": "北洛秘境 · 悬崖泳池",
+          "cat": "scenery",
+          "duration_min": 150,
+          "lng": 111.824887,
+          "lat": 21.56315,
+          "note": "悬崖泳池+无边泳池出片神地：非住客约 100 元/人（线上订票）；山体公园与滨海栈道免费；不住店也可打卡。",
+          "why": "J 人攻略拍照机位：北洛湾悬崖泳池",
+          "weather_sensitive": true,
+          "indoor_backup": "雷雨改：回酒店泳池/一夜埕糖水店",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "泳池另计",
+            "source": "computed",
+            "source_ref": "泳池为可选加项"
+          },
+          "slot_costs": [
+            {
+              "label": "悬崖泳池（可选）",
+              "price": {
+                "min": 100,
+                "max": 100,
+                "currency": "CNY",
+                "unit": "per_person",
+                "quantity": 2,
+                "total_min": 200,
+                "total_max": 200,
+                "label": "泳池票",
+                "source": "ctrip-webfetch",
+                "source_ref": "住哪去民宿网 2026-07：非住客约 100 元/人"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "time": "18:00",
+          "name": "螺洲公园 · 南海放生台",
+          "cat": "scenery",
+          "duration_min": 60,
+          "lng": 111.854851,
+          "lat": 21.570227,
+          "note": "海滨路公园+放生台栈道（放生台距公园约 500m），傍晚散步吹海风，顺路看渔港归航。",
+          "why": "J 人攻略 Day2 收尾散步点",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "免费开放"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 6,
+          "time": "19:30",
+          "name": "抵达十里银滩 · 入住鲸鱼智能酒店",
+          "cat": "transport",
+          "duration_min": 60,
+          "lng": 111.89613,
+          "lat": 21.591942,
+          "note": "万豪海陵湾一号 1 幢，全屋智能、免费挖沙工具；晚餐：东豪渔邨·现捞海鲜（万豪保利店，步行可达）或海汐晚餐；饭后沙滩散步/小烟花。",
+          "why": "十里银滩核心位置，明早去地拿海顺路",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "入住",
+            "source": "computed",
+            "source_ref": "房费见住宿"
+          },
+          "slot_costs": [
+            {
+              "label": "晚餐·东豪渔邨",
+              "price": {
+                "min": 70,
+                "max": 110,
+                "currency": "CNY",
+                "unit": "per_person",
+                "quantity": 2,
+                "total_min": 140,
+                "total_max": 220,
+                "label": "餐饮",
+                "source": "ctrip-webfetch",
+                "source_ref": "万豪保利商圈现捞海鲜人均 70-110"
+              }
+            }
+          ]
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 0,
+          "to_idx": 1,
+          "mode": "driving",
+          "duration_min": 22,
+          "distance_m": 8900,
+          "description": "自驾：海之冠大酒店→十里银滩（日出，约 22 分钟，8.9km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 12,
+          "distance_m": 5800,
+          "description": "自驾：十里银滩→南海一号博物馆（约 12 分钟，5.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 6,
+          "distance_m": 1800,
+          "description": "自驾：南海一号→海汐（午餐，约 6 分钟，1.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "driving",
+          "duration_min": 35,
+          "distance_m": 8800,
+          "description": "自驾：海汐→北洛秘境（约 35 分钟，8.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 5,
+          "mode": "driving",
+          "duration_min": 13,
+          "distance_m": 3800,
+          "description": "自驾：北洛秘境→螺洲公园（约 13 分钟，3.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "短途无收费"
+          }
+        },
+        {
+          "from_idx": 5,
+          "to_idx": 6,
+          "mode": "driving",
+          "duration_min": 19,
+          "distance_m": 8800,
+          "description": "自驾：螺洲公园→十里银滩鲸鱼酒店（约 19 分钟，8.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "main": {
+            "name": "蓉意餐厅（万豪海陵湾一号）",
+            "why": "日出后保利商圈早餐",
+            "lng": 111.896075,
+            "lat": 21.591896,
+            "price": {
+              "min": 15,
+              "max": 25,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 30,
+              "total_max": 50,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "本地粉面人均"
+            }
+          },
+          "alt": {
+            "name": "逮一碗湖南米粉重庆小面（H区店）",
+            "why": "保利银滩玉露天街备选"
+          }
+        },
+        "lunch": {
+          "main": {
+            "name": "海汐（保利银滩店）",
+            "why": "现捞海鲜+本地菜",
+            "lng": 111.88333,
+            "lat": 21.584128,
+            "price": {
+              "min": 70,
+              "max": 100,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 140,
+              "total_max": 200,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "J 人攻略保利商圈海鲜人均 70-100"
+            }
+          },
+          "alt": {
+            "name": "九妹真湘美食店",
+            "why": "保利 P4 区家常菜备选"
+          }
+        },
+        "dinner": {
+          "main": {
+            "name": "东豪渔邨·现捞海鲜（万豪保利店）",
+            "why": "回酒店步行可到的现捞海鲜",
+            "lng": 111.893317,
+            "lat": 21.595011,
+            "price": {
+              "min": 70,
+              "max": 110,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 140,
+              "total_max": 220,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "万豪商圈现捞海鲜人均 70-110"
+            }
+          },
+          "alt": {
+            "name": "海汐晚餐",
+            "why": "保利商圈同款备选"
+          }
+        }
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-08-30",
+      "weekday": "周日",
+      "region": "地拿海 · 宋康大道（海陵岛东岸）",
+      "theme": "小众礁石海岸 · 海岸线兜风 · 返深",
+      "weather": "待出行前 3 天实查（8 月末阳江高温〔36℃〕＋午后雷阵雨，台风季）",
+      "weather_emoji": "⛅",
+      "weather_decision": "地拿海看天：晴天礁石海超出片；雷雨改南海一号补看＋海鲜街。午后返程若遇雷雨，高速减速慢行。",
+      "center": [
+        111.853,
+        21.571
+      ],
+      "zoom": 12,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "09:00",
+          "name": "鲸鱼智能酒店 · 出发",
+          "cat": "hotel",
+          "duration_min": 20,
+          "lng": 111.89613,
+          "lat": 21.591942,
+          "note": "退房出发，行李放车上；导航『地拿海』约 21 分钟。",
+          "why": "十里银滩→地拿海顺路",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "出发",
+            "source": "computed",
+            "source_ref": "零元"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 2,
+          "time": "09:30",
+          "name": "地拿海（小众礁石海岸）",
+          "cat": "scenery",
+          "duration_min": 90,
+          "lng": 111.963014,
+          "lat": 21.607766,
+          "note": "原生礁石海岸+灯塔，几乎无商业开发，人少水清；站礁石上看小鱼的玻璃海。退潮可赶海（先查潮汐）。",
+          "why": "J 人攻略最出片小众机位",
+          "weather_sensitive": true,
+          "indoor_backup": "雷雨改：南海一号博物馆（补看）＋海鲜街",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "免费开放"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 3,
+          "time": "11:30",
+          "name": "宋康大道 · 海岸线兜风",
+          "cat": "scenery",
+          "duration_min": 45,
+          "lng": 111.868793,
+          "lat": 21.567316,
+          "note": "环岛主干道，沿途大角山/渔港/悬崖餐厅机位，慢开随停拍照。",
+          "why": "J 人攻略海岸线兜风点",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "免费开放"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 4,
+          "time": "12:30",
+          "name": "午餐 · 顺品美食店（返深前）",
+          "cat": "food",
+          "duration_min": 90,
+          "lng": 111.843346,
+          "lat": 21.570943,
+          "note": "回闸坡再吃一顿现捞海鲜；饭后一夜埕买海味干货伴手礼（渔礼·予你）。",
+          "why": "返程前顺路午餐",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "餐饮见餐单",
+            "source": "computed",
+            "source_ref": "餐费见当日用餐"
+          },
+          "slot_costs": []
+        },
+        {
+          "idx": 5,
+          "time": "14:30",
+          "name": "返程 · 深圳",
+          "cat": "transport",
+          "duration_min": 15,
+          "note": "导航深圳：G15沈海高速 315km 约 3 小时 20 分，过路费约 253 元；18:00 前到家。",
+          "why": "返深",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "返程",
+            "source": "computed",
+            "source_ref": "零元"
+          },
+          "slot_costs": [
+            {
+              "label": "返程高速费（海陵岛→深圳）",
+              "price": {
+                "min": 253,
+                "max": 253,
+                "currency": "CNY",
+                "unit": "per_order",
+                "quantity": 1,
+                "total_min": 253,
+                "total_max": 253,
+                "label": "高速费",
+                "source": "amap-rest-api",
+                "source_ref": "maps_direction_driving tolls"
+              }
+            }
+          ]
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 21,
+          "distance_m": 11400,
+          "description": "自驾：鲸鱼酒店→地拿海（约 21 分钟，11.4km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 28,
+          "distance_m": 17800,
+          "description": "自驾：地拿海→宋康大道（约 28 分钟，17.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "driving",
+          "duration_min": 18,
+          "distance_m": 3800,
+          "description": "自驾：宋康大道→顺品美食店（约 18 分钟，3.8km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "零元",
+            "source": "computed",
+            "source_ref": "岛内无收费"
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 5,
+          "mode": "driving",
+          "duration_min": 200,
+          "distance_m": 315000,
+          "description": "自驾：闸坡→G15沈海高速→深圳（约 3 小时 20 分，315km）",
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 253,
+            "max": 253,
+            "currency": "CNY",
+            "unit": "per_order",
+            "quantity": 1,
+            "total_min": 253,
+            "total_max": 253,
+            "label": "高速费",
+            "source": "amap-rest-api",
+            "source_ref": "maps_direction_driving tolls"
+          }
+        }
+      ],
+      "meals": {
+        "lunch": {
+          "main": {
+            "name": "顺品美食店（旅游大道店）",
+            "why": "返深前现捞海鲜",
+            "lng": 111.843346,
+            "lat": 21.570943,
+            "price": {
+              "min": 60,
+              "max": 90,
+              "currency": "CNY",
+              "unit": "per_person",
+              "quantity": 2,
+              "total_min": 120,
+              "total_max": 180,
+              "label": "餐饮",
+              "source": "ctrip-webfetch",
+              "source_ref": "J 人攻略现捞海鲜人均 60-90"
+            }
+          },
+          "alt": {
+            "name": "宝记海鲜大碗粉·猪肠碌",
+            "why": "本地备选"
+          }
+        }
+      }
+    }
+  ],
+  "deleted": [
+    {
+      "name": "东岛沙滩",
+      "why": "地拿海同类型小众海滩，留一个即可（时间更松）"
+    },
+    {
+      "name": "红树林湿地公园",
+      "why": "门票 35 元，D3 时间紧未排，可作机动加项"
+    },
+    {
+      "name": "风车山",
+      "why": "山顶俯瞰大角湾/闸坡港，D1/D2 日落点与马尾岛二选一，未必排"
+    },
+    {
+      "name": "蓝眼泪（荧光海）",
+      "why": "5 月前后概率高，8 月随缘，未作硬排"
+    }
+  ],
+  "prebook": [
+    {
+      "item": "大角湾门票",
+      "deadline": "出发前 1 天（线上购票）",
+      "url": "https://you.ctrip.com/sight/yangjiang363.html",
+      "note": "Day 1 14:00 前入园；5A 海滨浴场 49-94 元/人（旺季 8:00-21:30），线上刷码入园",
+      "day": 1,
+      "price": {
+        "min": 49,
+        "max": 94,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 98,
+        "total_max": 188,
+        "label": "门票",
+        "source": "ctrip-webfetch",
+        "source_ref": "住哪去民宿网 2026-07"
+      }
+    },
+    {
+      "item": "南海一号博物馆门票",
+      "deadline": "出行当日 9:00-17:00 现场/线上购票",
+      "url": "https://msrmuseum.com/News/Detailed/68",
+      "note": "Day 2 09:30 入场；70 元/人（节假日 8 折 56 元），周一闭馆",
+      "day": 2,
+      "price": {
+        "min": 70,
+        "max": 70,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 140,
+        "total_max": 140,
+        "label": "门票",
+        "source": "official-site",
+        "source_ref": "msrmuseum.com 官网"
+      }
+    },
+    {
+      "item": "北洛秘境悬崖泳池（可选）",
+      "deadline": "提前 1 天线上订票",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E9%98%B3%E6%B1%9F&keyword=%E5%8C%97%E6%B4%9B%E7%A7%98%E5%A2%83",
+      "note": "D2 14:30 入场；非住客约 100 元/人；山体公园/滨海栈道免费",
+      "day": 0,
+      "price": {
+        "min": 100,
+        "max": 100,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 200,
+        "total_max": 200,
+        "label": "泳池票",
+        "source": "ctrip-webfetch",
+        "source_ref": "住哪去民宿网 2026-07"
+      }
+    },
+    {
+      "item": "住宿·海之冠大酒店（D1）",
+      "deadline": "提前 1-2 周",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E9%98%B3%E6%B1%9F&keyword=%E6%B5%B7%E4%B9%8B%E5%86%A0%E5%A4%A7%E9%85%92%E5%BA%97",
+      "note": "闸坡海滨路 66 号，步行到一夜埕/大角湾",
+      "day": 0,
+      "price": {
+        "min": 300,
+        "max": 600,
+        "currency": "CNY",
+        "unit": "per_night",
+        "quantity": 1,
+        "total_min": 300,
+        "total_max": 600,
+        "label": "住宿",
+        "source": "ctrip-webfetch",
+        "source_ref": "住哪去民宿网 2026-07：闸坡酒店 300-600"
+      }
+    },
+    {
+      "item": "住宿·鲸鱼智能酒店（D2）",
+      "deadline": "提前 1-2 周",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E9%98%B3%E6%B1%9F&keyword=%E9%B2%B8%E9%B1%BC%E6%99%BA%E8%83%BD%E9%85%92%E5%BA%97",
+      "note": "十里银滩万豪海陵湾一号 1 幢，海景+全屋智能",
+      "day": 0,
+      "price": {
+        "min": 400,
+        "max": 800,
+        "currency": "CNY",
+        "unit": "per_night",
+        "quantity": 1,
+        "total_min": 400,
+        "total_max": 800,
+        "label": "住宿",
+        "source": "ctrip-webfetch",
+        "source_ref": "住哪去民宿网 2026-07：十里银滩海景 500-1000"
+      }
+    }
+  ],
+  "xhs_destination_brief": {
+    "degraded": true,
+    "note": "原小红书链接失效（xhslink 短链服务端 404），改用同篇『J 人海陵岛攻略』Trip.com 转载全文 + Exa 检索（住哪去民宿网 2026-07 价格调研）",
+    "must_visit": [
+      "大角湾（5A 玩水）",
+      "马尾岛（橘子海日落+赶海）",
+      "一夜埕海鲜街",
+      "十里银滩（日出）",
+      "南海一号博物馆",
+      "北洛秘境（悬崖泳池）",
+      "地拿海（小众礁石海岸）",
+      "宋康大道",
+      "南海放生台",
+      "螺洲公园"
+    ],
+    "skip_or_caution": [
+      "旺季大角湾人多『下饺子』→地拿海/东岛沙滩人少替代",
+      "海鲜别在景区门口吃→闸坡市场买+加工更划算",
+      "北洛泳池非住客收费约 100 元，需线上订",
+      "南海一号周一闭馆",
+      "8 月台风/雷雨季，出行前查预报",
+      "紫外线极强，防晒三件套（衣/帽/霜）"
+    ],
+    "region_layout": "西岸（闸坡/大角湾/马尾岛/一夜埕）＋东岸（十里银滩/南海一号/地拿海）＋北洛湾（北洛秘境）；两晚分宿西岸闸坡、东岸十里银滩"
+  },
+  "budget_summary": {
+    "currency": "CNY",
+    "by_category": {
+      "transport": {
+        "min": 758,
+        "max": 758,
+        "note": "高速费 506（往返各 253）＋电费 252（电车 0.4 元/km×630km）"
+      },
+      "tickets": {
+        "min": 438,
+        "max": 528,
+        "note": "大角湾 98-188 ＋ 南海一号 140 ＋ 北洛悬崖泳池 200（可选）"
+      },
+      "food": {
+        "min": 730,
+        "max": 1100,
+        "note": "顺品/海汐/东豪渔邨现捞海鲜＋小旭糖水掂"
+      },
+      "hotel": {
+        "min": 700,
+        "max": 1400,
+        "nights": 2
+      }
+    },
+    "total_min": 2626,
+    "total_max": 3786,
+    "per_person_min": 1313,
+    "per_person_max": 1893,
+    "disclaimer": "价格为调研日参考（2 人分摊后人均约 1313–1893 元），不含购物；门票/酒店以平台实时为准"
+  },
+  "validation_report": {
+    "rounds": [
+      {
+        "round": 1,
+        "phase": "结构筛",
+        "focus": "删点、分组、一天一区、用户禁忌",
+        "issues": [
+          "J 人攻略两天一夜扩展为三天两夜：D1 上岛玩水日落夜宵（西岸闸坡）、D2 日出+博物馆+悬崖泳池（东岸+北洛湾）、D3 小众海岸+返程",
+          "两晚分宿：D1 闸坡海之冠（近一夜埕/大角湾）、D2 十里银滩鲸鱼智能（海景日出方便），避免来回跑",
+          "删点：东岛沙滩（与地拿海同型）、红树林湿地公园（机动加项）、风车山（与马尾岛日落二选一）、蓝眼泪（8 月概率低）——见 deleted[]",
+          "V7 用户禁忌审查：无禁忌类型 POI"
+        ],
+        "conclusion": "通过，进入 Round 2",
+        "rules": [
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "含跨区返程（闸坡镇 · 大角湾（海陵岛西岸）），region_flex=true 跳过最远距离检查"
+          },
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "含跨区返程（十里银滩 · 北洛湾（海陵岛环岛）），region_flex=true 跳过最远距离检查"
+          },
+          {
+            "id": "V1",
+            "rule": "区域一致性",
+            "status": "✅",
+            "note": "末日（地拿海 · 宋康大道（海陵岛东岸）），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 1 当日预约 1 条：大角湾门票",
+            "count": 1
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 2 当日预约 1 条：南海一号博物馆门票",
+            "count": 1
+          },
+          {
+            "id": "V4",
+            "rule": "一日一重预约",
+            "status": "✅",
+            "note": "Day 3 当日预约 0 条：无",
+            "count": 0
+          },
+          {
+            "id": "V11",
+            "rule": "prebook 国内 OTA 链接（v2.2.1）",
+            "status": "✅",
+            "note": "prebook 链接均为国内携程深链或官方站"
+          },
+          {
+            "id": "V7",
+            "rule": "用户禁忌屏蔽",
+            "status": "✅",
+            "note": "用户未指定禁忌；全程无寺庙、网红打卡、购物团等禁忌类型 POI（AI 自核）",
+            "source": "ai-only"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "phase": "时空筛",
+        "focus": "高德实算通勤与末日缓冲",
+        "issues": [
+          "高德 REST 实算 15 段自驾（source=amap-rest-api）：深圳→闸坡 207min/312km/过路费 253、返程 200min/315km/253，岛上 13 段短途 2–35min",
+          "跨城段（深圳→岛、岛→深圳）POI 不填坐标，V2 不计入当日累计通勤（到达日/返程日），V9 对无坐标端点跳过，粗算占比均 <20%",
+          "D2 环岛（十里银滩→南海一号→北洛秘境→螺洲）region_flex=true 覆盖跨湾移动",
+          "末日 D3 无返程票，V5 跳过；14:30 返程，18:00 前到深圳"
+        ],
+        "conclusion": "通过，进入 Round 3",
+        "rules": [
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "✅",
+            "note": "通勤占总时长 4.2%；最远段 10 min（大角湾海上丝路旅游区→马尾岛 · 日落赶海，**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.042
+          },
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "✅",
+            "note": "通勤占总时长 9.6%；最远段 19 min（午餐 · 海汐（保利银滩店）→北洛秘境 · 悬崖泳池，**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.096
+          },
+          {
+            "id": "V2",
+            "rule": "时间可行性（粗算）",
+            "status": "✅",
+            "note": "通勤占总时长 19.1%；最远段 32 min（地拿海（小众礁石海岸）→宋康大道 · 海岸线兜风，**粗算，建议用高德 route_* 复核**）",
+            "commute_ratio": 0.191
+          },
+          {
+            "id": "V5",
+            "rule": "末日返程缓冲",
+            "status": "✅",
+            "note": "无返程票，跳过"
+          },
+          {
+            "id": "V8",
+            "rule": "MCP 必跑痕迹",
+            "status": "✅",
+            "note": "全部 15 段 transport 含合法 source 与 duration_min"
+          },
+          {
+            "id": "V9",
+            "rule": "通勤时间下限（高德实算）",
+            "status": "✅",
+            "note": "全部 15 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+          },
+          {
+            "id": "V13",
+            "rule": "酒店早晚通勤",
+            "status": "✅",
+            "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "phase": "体验筛",
+        "focus": "餐厅、备选、天气、预算溯源",
+        "issues": [
+          "V3 全 ✅：顺品 0.42-1.0km、一夜埕 0.71km、海汐 0.4km、东豪渔邨 1.35km、蓉意 1.2km，均在 1.5km 阈值内",
+          "海滩类 POI 全部配 indoor_backup（雷雨改南海一号/糖水店/酒店泳池），8 月台风雷雨季出行前 3 天实查",
+          "V10 ⚠️：脚本行明细不累计 slot_costs（电费/泳池/糖水等），预算汇总 2626-3786 元与浏览器端行明细加总一致，接受该口径差异",
+          "价格溯源：大角湾 49-94（住哪去民宿网 2026-07）、南海一号 70（官网）、北洛泳池 100（调研）、酒店区间（调研），均带 source 无 ai-guess"
+        ],
+        "conclusion": "通过，进入 Step 6-7",
+        "rules": [
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "✅",
+            "note": "最远餐厅「一夜埕海鲜街（顺品/海汐）」(dinner) 离主区域 0.71 km（阈值 1.5/3.0）",
+            "worst_km": 0.71
+          },
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "✅",
+            "note": "最远餐厅「东豪渔邨·现捞海鲜（万豪保利店）」(dinner) 离主区域 1.35 km（阈值 1.5/3.0）",
+            "worst_km": 1.35
+          },
+          {
+            "id": "V3",
+            "rule": "餐厅区域匹配",
+            "status": "✅",
+            "note": "最远餐厅「顺品美食店（旅游大道店）」(lunch) 离主区域 1.00 km（阈值 1.5/3.0）",
+            "worst_km": 1.0
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V6",
+            "rule": "户外天气敏感",
+            "status": "✅",
+            "note": "无户外 POI"
+          },
+          {
+            "id": "V10",
+            "rule": "价格溯源（v2.1.0 新增）",
+            "status": "⚠️",
+            "note": "budget_summary.total_min(2626) 与时间轴明细加总(2144) 偏差 18%",
+            "warnings": [
+              "budget_summary.total_min(2626) 与时间轴明细加总(2144) 偏差 18%"
+            ]
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "含跨区返程（闸坡镇 · 大角湾（海陵岛西岸）），region_flex=true 跳过最远距离检查"
+      },
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "含跨区返程（十里银滩 · 北洛湾（海陵岛环岛）），region_flex=true 跳过最远距离检查"
+      },
+      {
+        "id": "V1",
+        "rule": "区域一致性",
+        "status": "✅",
+        "note": "末日（地拿海 · 宋康大道（海陵岛东岸）），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "✅",
+        "note": "通勤占总时长 4.2%；最远段 10 min（大角湾海上丝路旅游区→马尾岛 · 日落赶海，**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.042
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "✅",
+        "note": "通勤占总时长 9.6%；最远段 19 min（午餐 · 海汐（保利银滩店）→北洛秘境 · 悬崖泳池，**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.096
+      },
+      {
+        "id": "V2",
+        "rule": "时间可行性（粗算）",
+        "status": "✅",
+        "note": "通勤占总时长 19.1%；最远段 32 min（地拿海（小众礁石海岸）→宋康大道 · 海岸线兜风，**粗算，建议用高德 route_* 复核**）",
+        "commute_ratio": 0.191
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "✅",
+        "note": "最远餐厅「一夜埕海鲜街（顺品/海汐）」(dinner) 离主区域 0.71 km（阈值 1.5/3.0）",
+        "worst_km": 0.71
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "✅",
+        "note": "最远餐厅「东豪渔邨·现捞海鲜（万豪保利店）」(dinner) 离主区域 1.35 km（阈值 1.5/3.0）",
+        "worst_km": 1.35
+      },
+      {
+        "id": "V3",
+        "rule": "餐厅区域匹配",
+        "status": "✅",
+        "note": "最远餐厅「顺品美食店（旅游大道店）」(lunch) 离主区域 1.00 km（阈值 1.5/3.0）",
+        "worst_km": 1.0
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 1 当日预约 1 条：大角湾门票",
+        "count": 1
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 2 当日预约 1 条：南海一号博物馆门票",
+        "count": 1
+      },
+      {
+        "id": "V4",
+        "rule": "一日一重预约",
+        "status": "✅",
+        "note": "Day 3 当日预约 0 条：无",
+        "count": 0
+      },
+      {
+        "id": "V5",
+        "rule": "末日返程缓冲",
+        "status": "✅",
+        "note": "无返程票，跳过"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V6",
+        "rule": "户外天气敏感",
+        "status": "✅",
+        "note": "无户外 POI"
+      },
+      {
+        "id": "V8",
+        "rule": "MCP 必跑痕迹",
+        "status": "✅",
+        "note": "全部 15 段 transport 含合法 source 与 duration_min"
+      },
+      {
+        "id": "V9",
+        "rule": "通勤时间下限（高德实算）",
+        "status": "✅",
+        "note": "全部 15 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+      },
+      {
+        "id": "V10",
+        "rule": "价格溯源（v2.1.0 新增）",
+        "status": "⚠️",
+        "note": "budget_summary.total_min(2626) 与时间轴明细加总(2144) 偏差 18%",
+        "warnings": [
+          "budget_summary.total_min(2626) 与时间轴明细加总(2144) 偏差 18%"
+        ]
+      },
+      {
+        "id": "V11",
+        "rule": "prebook 国内 OTA 链接（v2.2.1）",
+        "status": "✅",
+        "note": "prebook 链接均为国内携程深链或官方站"
+      },
+      {
+        "id": "V13",
+        "rule": "酒店早晚通勤",
+        "status": "✅",
+        "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+      },
+      {
+        "id": "V7",
+        "rule": "用户禁忌屏蔽",
+        "status": "✅",
+        "note": "用户未指定禁忌；全程无寺庙、网红打卡、购物团等禁忌类型 POI（AI 自核）",
+        "source": "ai-only"
+      }
+    ],
+    "summary": "20 通过 / 1 警告 / 0 失败（全量复检；**V7 用户禁忌需 AI 自行核对**）",
+    "note": "AI 自填 V7（用户禁忌）；浏览器加载时会用同规则重算 V1/V3/V4/V5/V6/V8/V9 并覆盖"
+  }
+}
