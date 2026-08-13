@@ -4622,6 +4622,8 @@
         }
 
         (d.pois || []).forEach((p, i) => {
+          // 跳过无坐标 POI（transport 类如机场起飞/到达、跨城段），否则 position=[undefined,undefined] 抛异常中断循环
+          if (p.lng == null || p.lat == null) return;
           const color = CAT_COLORS[p.cat] || '#333';
           const marker = new AMap.Marker({
             position: [p.lng, p.lat],
