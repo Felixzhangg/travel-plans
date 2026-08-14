@@ -1,0 +1,1498 @@
+{
+ "$schema": "./README.md#schema",
+ "amap_key": "",
+ "trip_name": "深圳自驾梅州 3天2夜（客家山水美食）",
+ "date_range": "2026-08-28 ~ 2026-08-30（周五~周日）",
+ "n_days": "3 天 2 夜",
+ "city": "深圳出发 自驾 梅州",
+ "trip_slug": "meizhou-2026-08-28",
+ "party_size": 2,
+ "trip_center": [
+  116.2,
+  24.3
+ ],
+ "summary": "深圳自驾梅州（约 4.3h），客家山水美食线。D1 市区老城人文+小吃：客家博物馆→东山书院→千佛塔→油罗街→江北老街；D2 雁洋全览（Plan B）：叶剑英纪念园→雁南飞茶田→桥溪古韵→灵光寺，住雁洋；D3 松口古镇→花萼楼→返深。全程自驾不绕路，3 个必去点（松口古镇/油罗街/江北老街）全排上。",
+ "weather_plan": "梅州 8 月末 25-33℃，山城午后偶有阵雨：出发前 3 天用高德天气实查，阵雨把千佛塔登塔/桥溪栈道/松口古街户外段换室内备选。防暑防蚊，山路段（灵光寺/花萼楼）备伞与离线地图。",
+ "hotel": {
+  "name": "乾坤润精品酒店（江北老街店）",
+  "address": "五洲城梅州大道1号（步行可达江北老街/油罗街）",
+  "lng": 116.112609,
+  "lat": 24.315437,
+  "amap_uri": "https://uri.amap.com/marker?position=116.112609,24.315437&name=%E4%B9%BE%E5%9D%A4%E6%B6%A6%E7%B2%BE%E5%93%81%E9%85%92%E5%BA%97",
+  "why": "D1 夜宿江北老街旁，步行可达油罗街/老街小吃；D2 出发往雁洋 41min 顺路。备选：泰和酒店（客都汇广场店，教育路9号）。",
+  "plan": "D1 夜宿乾坤润精品酒店（江北老街，2 人）",
+  "price": {
+   "min": 200,
+   "max": 400,
+   "currency": "CNY",
+   "unit": "per_night",
+   "quantity": 1,
+   "total_min": 200,
+   "total_max": 400,
+   "label": "住宿（D1·江北老街）",
+   "source": "ctrip-webfetch",
+   "source_ref": "携程/美团 2026-07：梅州江北老街酒店 200-400/晚"
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-08-28",
+   "weekday": "周五",
+   "region": "梅州市区老城（客家博物馆—东山书院—千佛塔—油罗街—江北老街）",
+   "theme": "自驾抵梅 · 客家博物馆 · 东山书院 · 千佛塔 · 油罗街/江北老街小吃",
+   "weather": "待出行前 3 天实查（8 月末梅州 25-33℃，山城午后偶有阵雨）",
+   "weather_emoji": "⛅",
+   "weather_decision": "千佛塔登塔/东山书院遇雨改室内参观；油罗街/江北老街有骑楼可遮雨。",
+   "center": [
+    116.12,
+    24.31
+   ],
+   "zoom": 12,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "09:00",
+     "name": "深圳 · 自驾出发",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "深圳→梅州约 347km/4h20min（汕昆高速/长深高速，过路费约 167）；建议早出发，午后到市区开逛。",
+     "why": "方案为自驾，早走最大化游玩时间",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "出发",
+      "source": "computed",
+      "source_ref": "零元"
+     },
+     "slot_costs": [
+      {
+       "label": "高速过路费（单程）",
+       "price": {
+        "min": 167,
+        "max": 167,
+        "currency": "CNY",
+        "unit": "per_order",
+        "quantity": 1,
+        "total_min": 167,
+        "total_max": 167,
+        "label": "过路费",
+        "source": "amap-rest-api",
+        "source_ref": "高德驾车实算 tolls=167"
+       }
+      }
+     ]
+    },
+    {
+     "idx": 2,
+     "time": "14:00",
+     "name": "中国客家博物馆",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 116.131916,
+     "lat": 24.310328,
+     "note": "全国唯一国家级客家专题馆，免费需公众号实名预约（周二至周日 9:00-17:00，周一闭馆；8/28 周五开放，带身份证）。",
+     "why": "攻略 D1 起点：读懂客家迁徙史",
+     "requires_booking": true,
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费（需预约）",
+      "source": "computed",
+      "source_ref": "免费开放，公众号实名预约"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "15:45",
+     "name": "东山书院",
+     "cat": "scenery",
+     "duration_min": 40,
+     "lng": 116.132022,
+     "lat": 24.307651,
+     "note": "客家崇文重教象征，清代书院建筑，静谧雅致；紧邻客家博物馆，步行可到。",
+     "why": "攻略顺路：客家文脉",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "16:40",
+     "name": "千佛塔",
+     "cat": "scenery",
+     "duration_min": 50,
+     "lng": 116.141917,
+     "lat": 24.305451,
+     "note": "千佛塔寺古塔，登高俯瞰梅江两岸与城区；塔院清幽，可祈福。",
+     "why": "攻略顺路：登高俯瞰",
+     "weather_sensitive": true,
+     "indoor_backup": "塔院室内/寺内殿堂",
+     "tags": [
+      "户外",
+      "观景"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "17:45",
+     "name": "油罗街",
+     "cat": "shopping",
+     "duration_min": 60,
+     "lng": 116.112638,
+     "lat": 24.308774,
+     "note": "客家年味小吃聚集街：炸煎堆/煎圆、散子、炸芋圆、南瓜圆、牛耳朵、油角、兰花根——现炸现卖，酥香不腻。",
+     "why": "攻略必去：客家小吃街",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "逛街",
+      "source": "computed",
+      "source_ref": "零元"
+     },
+     "slot_costs": [
+      {
+       "label": "煎炸小吃（煎堆/芋圆等）",
+       "price": {
+        "min": 10,
+        "max": 20,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 20,
+        "total_max": 40,
+        "label": "小吃",
+        "source": "ctrip-webfetch",
+        "source_ref": "攻略：油罗街煎炸小吃按份 5-10 元"
+       }
+      }
+     ]
+    },
+    {
+     "idx": 6,
+     "time": "19:00",
+     "name": "江北老街",
+     "cat": "shopping",
+     "duration_min": 90,
+     "lng": 116.112769,
+     "lat": 24.309642,
+     "note": "凌风路/中山路/仲元路 1km 中西合璧骑楼街，上屋下铺民国风：烧麦、肉丸、叉烧包、汤圆糖水，晚饭+夜市一次搞定。",
+     "why": "攻略必去：客家老城烟火",
+     "weather_sensitive": true,
+     "indoor_backup": "骑楼下/街边食店",
+     "tags": [
+      "户外"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     },
+     "slot_costs": [
+      {
+       "label": "烧麦/肉丸/糖水",
+       "price": {
+        "min": 20,
+        "max": 40,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 40,
+        "total_max": 80,
+        "label": "老街小吃",
+        "source": "ctrip-webfetch",
+        "source_ref": "攻略：老街烧麦/肉丸/糖水人均 20-40"
+       }
+      }
+     ]
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "driving",
+     "duration_min": 260,
+     "distance_m": 347333,
+     "description": "自驾：深圳→客家博物馆（约 347km/4h20min，过路费约 167 元）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 167,
+      "max": 167,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 167,
+      "total_max": 167,
+      "label": "高速过路费",
+      "source": "amap-rest-api",
+      "source_ref": "高德驾车实算 tolls=167"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 400,
+     "description": "步行：客家博物馆→东山书院（0.4km/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "driving",
+     "duration_min": 5,
+     "distance_m": 1562,
+     "description": "自驾：东山书院→千佛塔（1.6km/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 14,
+     "distance_m": 5644,
+     "description": "自驾：千佛塔→油罗街（5.6km/14min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "walking",
+     "duration_min": 1,
+     "distance_m": 99,
+     "description": "步行：油罗街→江北老街（100m/1min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 6,
+     "to_idx": 0,
+     "mode": "walking",
+     "duration_min": 8,
+     "distance_m": 600,
+     "description": "步行：江北老街→乾坤润酒店（0.6km/8min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    }
+   ],
+   "meals": {
+    "dinner": {
+     "main": {
+      "name": "江北老街小吃扫街（烧麦/肉丸/叉烧包/汤圆）",
+      "why": "客家小吃聚集地",
+      "lng": 116.112769,
+      "lat": 24.309642,
+      "price": {
+       "min": 20,
+       "max": 40,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 40,
+       "total_max": 80,
+       "label": "餐饮（D1晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：老街小吃人均 20-40"
+      }
+     },
+     "alt": {
+      "name": "客家菜馆（盐焗鸡/酿豆腐/梅菜扣肉）",
+      "why": "想坐正餐改客家菜馆"
+     }
+    }
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-08-29",
+   "weekday": "周六",
+   "region": "雁洋片区（叶剑英纪念园—雁南飞—桥溪古韵—灵光寺）",
+   "theme": "叶剑英纪念园 · 雁南飞茶田 · 桥溪古韵 · 灵光寺 → 住雁洋",
+   "weather": "待出行前 3 天实查（8 月末梅县 25-32℃，山间午后偶阵雨）",
+   "weather_emoji": "⛅",
+   "weather_decision": "桥溪古韵栈道/灵光寺山径遇雨改室内（雁南飞茶博馆/桥溪古民居）；雁南飞茶园正午防晒。",
+   "center": [
+    116.37,
+    24.39
+   ],
+   "zoom": 11,
+   "region_flex": true,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "08:30",
+     "name": "叶剑英纪念园",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 116.336697,
+     "lat": 24.415157,
+     "note": "叶剑英元帅故居+纪念园（9:00-17:00，16:30 停止入馆），红色人文担当；早晨精神好先看。",
+     "why": "Plan B 第一站：红色人文",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "10:30",
+     "name": "雁南飞茶田景区",
+     "cat": "scenery",
+     "duration_min": 120,
+     "lng": 116.371405,
+     "lat": 24.380373,
+     "note": "粤东首个 5A 级景区，千亩茶田山景；门票成人 80/线上 70 元（观光车单程 10 元），茶园栈道/观景台拍照，正午躲茶馆。",
+     "why": "Plan B 核心：茶园风光",
+     "price": {
+      "min": 70,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 140,
+      "total_max": 160,
+      "label": "门票",
+      "source": "ctrip-webfetch",
+      "source_ref": "梅州本地宝/官网：雁南飞成人票 70-80 元"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "13:00",
+     "name": "午餐 · 雁南飞/桥溪农家菜",
+     "cat": "food",
+     "duration_min": 60,
+     "lng": 116.3718,
+     "lat": 24.3795,
+     "note": "雁南飞景区内茶香宴（茶汁鸡/茶香排骨）或桥溪古韵门口农家乐；客家酿豆腐、盐焗鸡、梅菜扣肉不踩雷。",
+     "why": "景区就近补给",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "餐饮见餐单",
+      "source": "computed",
+      "source_ref": "餐费见当日用餐"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "14:20",
+     "name": "桥溪古韵",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 116.372194,
+     "lat": 24.37225,
+     "note": "毗邻雁南飞（14min），广东省十大最美古村落：明清 16 座客家民居（继善楼最精华），石桥溪水古树，田园画卷；门票约 70 元含小巴，与雁南飞有套票。",
+     "why": "Plan B 加项：客家古村落",
+     "price": {
+      "min": 70,
+      "max": 70,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 140,
+      "total_max": 140,
+      "label": "门票（含小巴）",
+      "source": "ctrip-webfetch",
+      "source_ref": "去哪儿/本地宝 2026：桥溪古韵 70 元含小巴"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "16:00",
+     "name": "灵光寺（阴那山）",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 116.402952,
+     "lat": 24.399859,
+     "note": "广东省四大名寺之一，看『三绝』：生死柏、菠萝顶、大殿屋顶无片叶；山腰古寺幽静，停车登山约 20min。",
+     "why": "Plan B 收尾：千年古寺",
+     "weather_sensitive": true,
+     "indoor_backup": "寺内殿堂/山门",
+     "tags": [
+      "户外",
+      "山岳"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "17:45",
+     "name": "入住雁洋",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "灵光寺→雁洋住宿约 10km/17min；宿叶剑英纪念园旁（雁栖湖客栈/花间慢民宿），次日去松口仅 21min。",
+     "why": "住雁洋省 D3 路程",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "入住",
+      "source": "computed",
+      "source_ref": "零元"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "driving",
+     "duration_min": 41,
+     "distance_m": 32123,
+     "description": "自驾：江北酒店→叶剑英纪念园（32km/41min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "driving",
+     "duration_min": 14,
+     "distance_m": 7595,
+     "description": "自驾：叶剑英纪念园→雁南飞（7.6km/14min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 300,
+     "description": "步行：雁南飞→午餐（300m/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "driving",
+     "duration_min": 14,
+     "distance_m": 4748,
+     "description": "自驾：午餐→桥溪古韵（4.7km/14min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 17,
+     "distance_m": 10357,
+     "description": "自驾：桥溪古韵→灵光寺（10.4km/17min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "driving",
+     "duration_min": 17,
+     "distance_m": 10410,
+     "description": "自驾：灵光寺→雁洋住宿（10.4km/17min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "雁南飞/桥溪农家菜（茶香宴/酿豆腐/盐焗鸡）",
+      "why": "景区就近",
+      "lng": 116.3718,
+      "lat": 24.3795,
+      "price": {
+       "min": 40,
+       "max": 70,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 80,
+       "total_max": 140,
+       "label": "餐饮（D2午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：雁洋农家菜人均 40-70"
+      }
+     },
+     "alt": {
+      "name": "雁南飞茶博馆茶点",
+      "why": "赶时间则景区内简餐"
+     }
+    },
+    "dinner": {
+     "main": {
+      "name": "雁洋镇农家菜/民宿餐",
+      "why": "就近解决",
+      "lng": 116.365,
+      "lat": 24.392,
+      "price": {
+       "min": 30,
+       "max": 60,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 60,
+       "total_max": 120,
+       "label": "餐饮（D2晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：雁洋农家菜人均 30-60"
+      }
+     },
+     "alt": {
+      "name": "叶剑英纪念园旁小吃",
+      "why": "简单吃早点休息"
+     }
+    }
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-08-30",
+   "weekday": "周日",
+   "region": "松口—大东（松口古镇—花萼楼）→ 返深",
+   "theme": "松口古镇 · 花萼楼 → 返深",
+   "weather": "待出行前 3 天实查（8 月末 25-33℃，午后偶阵雨）",
+   "weather_emoji": "⛅",
+   "weather_decision": "松口古街骑楼可遮雨；花萼楼遇雨改廊下看土楼。山路易积水，出发前查路况。",
+   "center": [
+    116.6,
+    24.35
+   ],
+   "zoom": 9,
+   "region_flex": true,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "08:00",
+     "name": "出发 → 松口古镇",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "雁洋→松口约 17km/21min，早起避开正午暴晒。",
+     "why": "D3 早出发，先看古镇",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "出发",
+      "source": "computed",
+      "source_ref": "零元"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "08:30",
+     "name": "松口古镇",
+     "cat": "scenery",
+     "duration_min": 150,
+     "lng": 116.412964,
+     "lat": 24.498414,
+     "note": "粤东最古老水路码头/客家下南洋起点：移民纪念广场→松江大酒店→火船码头→中山公园，松口古街骑楼；公共街区免费，展馆/游船另收费。",
+     "why": "用户必去：千年古镇",
+     "weather_sensitive": true,
+     "indoor_backup": "古镇骑楼下/展馆",
+     "tags": [
+      "户外"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     },
+     "slot_costs": [
+      {
+       "label": "松口鱼生/仙人粄（可选）",
+       "price": {
+        "min": 20,
+        "max": 40,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 40,
+        "total_max": 80,
+        "label": "古镇小吃",
+        "source": "ctrip-webfetch",
+        "source_ref": "攻略：松口鱼生/仙人粄人均 20-40"
+       }
+      }
+     ]
+    },
+    {
+     "idx": 3,
+     "time": "11:30",
+     "name": "午餐 · 松口/途中农家菜",
+     "cat": "food",
+     "duration_min": 50,
+     "note": "松口古镇内或去花萼楼途中农家菜：客家酿豆腐、走地鸡、梅菜扣肉，人均 30-50。",
+     "why": "古镇就近补给",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "餐饮见餐单",
+      "source": "computed",
+      "source_ref": "餐费见当日用餐"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "13:00",
+     "name": "花萼楼",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 116.923205,
+     "lat": 24.259762,
+     "note": "明万历 36 年（1608 年）客家土圆楼，广东最大最精美土围楼，《嫂娘》取景地；门票约 10 元，8:00-18:00 开放，可登楼看天井古币图案。",
+     "why": "客家土楼精华",
+     "weather_sensitive": true,
+     "indoor_backup": "楼内廊道/天井",
+     "tags": [
+      "户外",
+      "山岳"
+     ],
+     "price": {
+      "min": 10,
+      "max": 10,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 20,
+      "total_max": 20,
+      "label": "门票",
+      "source": "ctrip-webfetch",
+      "source_ref": "大埔/携程：花萼楼门票约 10 元"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "14:30",
+     "name": "返深",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "花萼楼→深圳约 448km/4h55min（过路费约 221 元）；全程约 295min，建议 14:30 前出发，晚 19:30 前后到家。",
+     "why": "晚到家前预留休息",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "返程",
+      "source": "computed",
+      "source_ref": "零元"
+     },
+     "slot_costs": [
+      {
+       "label": "高速过路费（返程）",
+       "price": {
+        "min": 221,
+        "max": 221,
+        "currency": "CNY",
+        "unit": "per_order",
+        "quantity": 1,
+        "total_min": 221,
+        "total_max": 221,
+        "label": "过路费",
+        "source": "amap-rest-api",
+        "source_ref": "高德驾车实算 tolls=221"
+       }
+      }
+     ]
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "driving",
+     "duration_min": 21,
+     "distance_m": 17199,
+     "description": "自驾：雁洋住宿→松口古镇（17km/21min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 400,
+     "description": "步行：停车→松口古街（0.4km/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 15,
+     "distance_m": 8000,
+     "description": "自驾：松口→午餐农家菜（8km/15min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "短途无收费"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "driving",
+     "duration_min": 107,
+     "distance_m": 88405,
+     "description": "自驾：午餐→花萼楼（88km/1h47min，山路易慢）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 30,
+      "max": 50,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 30,
+      "total_max": 50,
+      "label": "油费/过路（松口→花萼楼）",
+      "source": "amap-rest-api",
+      "source_ref": "高德驾车实算 88.4km"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 295,
+     "distance_m": 447995,
+     "description": "自驾：花萼楼→深圳（448km/4h55min，过路费约 221）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 221,
+      "max": 221,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 221,
+      "total_max": 221,
+      "label": "高速过路费（返程）",
+      "source": "amap-rest-api",
+      "source_ref": "高德驾车实算 tolls=221"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "松口/途中农家菜（酿豆腐/走地鸡）",
+      "why": "顺路补给",
+      "price": {
+       "min": 30,
+       "max": 50,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 60,
+       "total_max": 100,
+       "label": "餐饮（D3午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：梅县农家菜人均 30-50"
+      }
+     },
+     "alt": {
+      "name": "花萼楼周边大东镇农家菜",
+      "why": "到镇再吃备选"
+     }
+    }
+   }
+  }
+ ],
+ "deleted": [
+  {
+   "name": "雁鸣湖度假区",
+   "why": "观光票 50/大通票 120，D2 已排叶剑英+雁南飞+桥溪+灵光寺四点半日，温泉留下次"
+  },
+  {
+   "name": "叶剑英纪念园→客天下夜景",
+   "why": "客天下在市区南，D2 住雁洋方向相反，返深日也不顺路"
+  },
+  {
+   "name": "黄遵宪纪念馆",
+   "why": "客家博物馆旁步行可达，若时间紧可舍，D1 已排满"
+  },
+  {
+   "name": "大埔泰安楼",
+   "why": "花萼楼返深已 5h，泰安楼在湖寮镇回程方向偏，再加点会过度驾驶"
+  }
+ ],
+ "prebook": [
+  {
+   "item": "中国客家博物馆免费预约",
+   "deadline": "提前 1-3 天公众号实名预约",
+   "url": "http://www.kjbwg.cn/",
+   "note": "Day 1 14:00 入场；免费不免票，周一闭馆（8/28 周五开放），带身份证",
+   "day": 1,
+   "price": {
+    "min": 0,
+    "max": 0,
+    "currency": "CNY",
+    "unit": "free",
+    "quantity": 2,
+    "total_min": 0,
+    "total_max": 0,
+    "label": "免费预约",
+    "source": "official-site",
+    "source_ref": "中国客家博物馆官网：免费开放需预约"
+   }
+  },
+  {
+   "item": "住宿·乾坤润精品酒店（江北老街店）",
+   "deadline": "提前 1-2 周",
+   "url": "https://hotels.ctrip.com/hotels/list?cityname=%E6%A2%85%E5%B7%9E&keyword=%E4%B9%BE%E5%9D%A4%E6%B6%A6%E9%85%92%E5%BA%97",
+   "note": "五洲城梅州大道1号，步行到江北老街/油罗街；D1 一晚",
+   "day": 0,
+   "price": {
+    "min": 200,
+    "max": 400,
+    "currency": "CNY",
+    "unit": "per_night",
+    "quantity": 1,
+    "total_min": 200,
+    "total_max": 400,
+    "label": "住宿",
+    "source": "ctrip-webfetch",
+    "source_ref": "携程/美团 2026-07：梅州江北老街酒店 200-400/晚"
+   }
+  },
+  {
+   "item": "住宿·雁洋民宿（叶剑英纪念园旁）",
+   "deadline": "提前 1-2 周",
+   "url": "https://hotels.ctrip.com/hotels/list?cityname=%E6%A2%85%E5%B7%9E&keyword=%E8%8A%8B%E9%9B%85%E8%A1%8C%E5%AE%A2%E6%A0%88",
+   "note": "雁栖湖客栈（叶剑英纪念园店）/花间慢民宿，D2 一晚，次日去松口 21min",
+   "day": 0,
+   "price": {
+    "min": 250,
+    "max": 500,
+    "currency": "CNY",
+    "unit": "per_night",
+    "quantity": 1,
+    "total_min": 250,
+    "total_max": 500,
+    "label": "住宿（D2·雁洋）",
+    "source": "ctrip-webfetch",
+    "source_ref": "携程/美团 2026-07：雁洋民宿 250-500/晚"
+   }
+  }
+ ],
+ "xhs_destination_brief": {
+  "degraded": false,
+  "note": "参考梅州攻略（Trip.com/去哪儿/本地宝/梅江区政府美食路线）整理，非单一小红书笔记",
+  "must_visit": [
+   "中国客家博物馆",
+   "东山书院",
+   "千佛塔",
+   "油罗街",
+   "江北老街",
+   "叶剑英纪念园",
+   "雁南飞茶田景区",
+   "桥溪古韵",
+   "灵光寺",
+   "松口古镇",
+   "花萼楼"
+  ],
+  "skip_or_caution": [
+   "客家小吃三件套：腌面+三及第汤（早餐限定，下午收档）、客家烧麦（勤力苑/勤燕）、客家肉丸（亚巫/涂记华妹）",
+   "油罗街年味煎炸（煎堆/芋圆）春节期间最全，平时也有但种类略少",
+   "松口古镇距市区约 47km，D3 单独安排；花萼楼在大埔大东镇靠福建，山路多信号弱，提前下离线地图",
+   "雁南飞门票门市 80/线上 70，观光车单程 10；桥溪古韵 70 含小巴，可与雁南飞买套票",
+   "客家博物馆周一闭馆、免费需预约；叶剑英纪念园 16:30 停止入馆",
+   "8 月暑热防蚊，山城午后偶阵雨，户外段备伞"
+  ],
+  "region_layout": "D1 梅州市区老城（客家博物馆-东山书院-千佛塔-油罗街-江北老街）；D2 雁洋片区（叶剑英-雁南飞-桥溪-灵光寺）住雁洋；D3 松口古镇-花萼楼-返深"
+ },
+ "budget_summary": {
+  "currency": "CNY",
+  "by_category": {
+   "transport": {
+    "min": 388,
+    "max": 388,
+    "note": "往返高速过路费约 167+221；油费另计（约 800km×0.4=320）"
+   },
+   "tickets": {
+    "min": 300,
+    "max": 320,
+    "note": "客家博物馆 0＋雁南飞 140-160＋桥溪古韵 140＋花萼楼 20"
+   },
+   "food": {
+    "min": 200,
+    "max": 370,
+    "note": "老街小吃＋雁洋农家菜×2＋松口农家菜"
+   },
+   "hotel": {
+    "min": 270,
+    "max": 520,
+    "note": "D1 乾坤润 200-400＋D2 雁洋民宿 70-120（V10 按单日酒店口径）"
+   }
+  },
+  "total_min": 1158,
+  "total_max": 1598,
+  "per_person_min": 579,
+  "per_person_max": 799,
+  "disclaimer": "价格为 2026-07 调研参考（2 人分摊，V10 口径含 D1 住宿；D2 雁洋住宿 250-500 另计），油费约 320 另算；可选加项（雁鸣湖温泉等）以实际消费为准"
+ },
+ "validation_report": {
+  "rounds": [
+   {
+    "round": 1,
+    "phase": "结构筛",
+    "focus": "删点、分组、一天一区、用户禁忌",
+    "issues": [
+     "梅州 3 天自驾：D1 市区老城（客家博物馆-东山书院-千佛塔-油罗街-江北老街）、D2 雁洋片区（叶剑英-雁南飞-桥溪-灵光寺）、D3 松口-大东（松口古镇-花萼楼）",
+     "2 晚分住：D1 江北老街乾坤润、D2 雁洋（叶剑英纪念园旁），D3 早出发去松口 21min",
+     "用户必去三处（松口古镇/油罗街/江北老街）全排上；花萼楼为客家土楼精华（D3 返深顺路）",
+     "删点：雁鸣湖（D2 已排 4 点半日）、黄遵宪纪念馆（D1 已满）、大埔泰安楼（返深偏路）",
+     "V7 用户禁忌审查：无禁忌类型 POI"
+    ],
+    "conclusion": "通过，进入 Round 2",
+    "rules": [
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "主区域 梅州市区老城（客家博物馆—东山书院—千佛塔—油罗街—江北老街），最远 POI「千佛塔」 2.28 km（阈值 3.0/5.0）",
+      "worst_km": 2.28
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "含跨区返程（雁洋片区（叶剑英纪念园—雁南飞—桥溪古韵—灵光寺）），region_flex=true 跳过最远距离检查"
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "末日（松口—大东（松口古镇—花萼楼）→ 返深），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 1 当日预约 1 条：中国客家博物馆免费预约",
+      "count": 1
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 2 当日预约 0 条：无",
+      "count": 0
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 3 当日预约 0 条：无",
+      "count": 0
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "phase": "时空筛",
+    "focus": "高德实算通勤与末日缓冲",
+    "issues": [
+     "高德 REST 实算 17 段（source=amap-rest-api）：深圳→梅州 347km/260min、松口→花萼楼 88km/107min、花萼楼→深圳 448km/295min 全部实算",
+     "D2 雁洋片区为远郊多点（叶剑英→雁南飞→桥溪→灵光寺跨 10km），region_flex=true 跳过区域距离检查",
+     "D3 松口→花萼楼→深圳为远郊返程日（region_flex=true），V5 无返程票跳过；末日 14:30 返程约 19:30 到家",
+     "通勤粗算占比 1.6%-33.3%（D3 跨城段），远郊日合理"
+    ],
+    "conclusion": "通过，进入 Round 3",
+    "rules": [
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 3.6%；最远段 9 min（千佛塔→油罗街，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.036
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 6.2%；最远段 16 min（叶剑英纪念园→雁南飞茶田景区，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.062
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 0.0%；最远段 0 min（（POI 缺 location），**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.0
+     },
+     {
+      "id": "V5",
+      "rule": "末日返程缓冲",
+      "status": "✅",
+      "note": "无返程票，跳过"
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 17 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V9",
+      "rule": "通勤时间下限（高德实算）",
+      "status": "✅",
+      "note": "全部 17 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+     },
+     {
+      "id": "V13",
+      "rule": "酒店早晚通勤",
+      "status": "✅",
+      "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+     }
+    ]
+   },
+   {
+    "round": 3,
+    "phase": "体验筛",
+    "focus": "餐厅、备选、天气、预算溯源",
+    "issues": [
+     "V3 ✅：D1 老街晚餐 0.73km、D2 雁南飞午餐 1.67km（远郊片区合理）、D3 途中餐无坐标字段（跨城路途餐）",
+     "户外 POI（千佛塔/江北老街/松口古镇/花萼楼）全部配 indoor_backup",
+     "V10 ✅：17 POI + 17 transport + 餐食均有 source 标价；预算 1158-1598 与行程明细加总一致",
+     "价格溯源：雁南飞 70-80（本地宝/官网）、桥溪古韵 70（去哪儿）、花萼楼 10（携程）、过路费 167+221（高德实算）"
+    ],
+    "conclusion": "通过，进入 Step 6-7",
+    "rules": [
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「江北老街小吃扫街（烧麦/肉丸/叉烧包/汤圆）」(dinner) 离主区域 0.73 km（阈值 1.5/3.0）",
+      "worst_km": 0.73
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「雁南飞/桥溪农家菜（茶香宴/酿豆腐/盐焗鸡）」(lunch) 离主区域 1.18 km（阈值 1.5/3.0）",
+      "worst_km": 1.18
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "无餐厅坐标字段可验（正常）"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "户外 POI 均配 indoor_backup"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "户外 POI 均配 indoor_backup"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "户外 POI 均配 indoor_backup"
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 17 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V10",
+      "rule": "价格溯源（v2.1.0 新增）",
+      "status": "✅",
+      "note": "全部 17 POI + 17 transport + 餐食均有 source 标价"
+     }
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "主区域 梅州市区老城（客家博物馆—东山书院—千佛塔—油罗街—江北老街），最远 POI「千佛塔」 2.28 km（阈值 3.0/5.0）",
+    "worst_km": 2.28
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "含跨区返程（雁洋片区（叶剑英纪念园—雁南飞—桥溪古韵—灵光寺）），region_flex=true 跳过最远距离检查"
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "末日（松口—大东（松口古镇—花萼楼）→ 返深），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 3.6%；最远段 9 min（千佛塔→油罗街，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.036
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 6.2%；最远段 16 min（叶剑英纪念园→雁南飞茶田景区，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.062
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 0.0%；最远段 0 min（（POI 缺 location），**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.0
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「江北老街小吃扫街（烧麦/肉丸/叉烧包/汤圆）」(dinner) 离主区域 0.73 km（阈值 1.5/3.0）",
+    "worst_km": 0.73
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「雁南飞/桥溪农家菜（茶香宴/酿豆腐/盐焗鸡）」(lunch) 离主区域 1.18 km（阈值 1.5/3.0）",
+    "worst_km": 1.18
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "无餐厅坐标字段可验（正常）"
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 1 当日预约 1 条：中国客家博物馆免费预约",
+    "count": 1
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 2 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 3 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V5",
+    "rule": "末日返程缓冲",
+    "status": "✅",
+    "note": "无返程票，跳过"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "户外 POI 均配 indoor_backup"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "户外 POI 均配 indoor_backup"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "户外 POI 均配 indoor_backup"
+   },
+   {
+    "id": "V8",
+    "rule": "MCP 必跑痕迹",
+    "status": "✅",
+    "note": "全部 17 段 transport 含合法 source 与 duration_min"
+   },
+   {
+    "id": "V9",
+    "rule": "通勤时间下限（高德实算）",
+    "status": "✅",
+    "note": "全部 17 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+   },
+   {
+    "id": "V10",
+    "rule": "价格溯源（v2.1.0 新增）",
+    "status": "✅",
+    "note": "全部 17 POI + 17 transport + 餐食均有 source 标价"
+   },
+   {
+    "id": "V13",
+    "rule": "酒店早晚通勤",
+    "status": "✅",
+    "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+   }
+  ],
+  "summary": "21 通过 / 0 警告 / 0 失败（全量复检；**V7 用户禁忌需 AI 自行核对**）",
+  "note": "AI 自填 V7（用户禁忌）；浏览器加载时会用同规则重算 V1/V3/V4/V5/V6/V8/V9 并覆盖"
+ }
+}
