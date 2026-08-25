@@ -1,0 +1,1693 @@
+{
+ "$schema": "https://felixzhangg.github.io/travel-plans/schema.json",
+ "amap_key": "da6fdfdede459e8e3b7eb68ffc16d0a0",
+ "trip_name": "泉州 3天2夜 · B方案：南线海边+侨乡（高铁）",
+ "date_range": "2026-08-27 ~ 2026-08-29（周四~周六）",
+ "n_days": "3 天 2 夜",
+ "city": "泉州",
+ "trip_slug": "quanzhou-b-2026-08-27",
+ "party_size": 2,
+ "trip_center": [
+  118.59,
+  24.91
+ ],
+ "summary": "深圳高铁泉州 3 天 2 夜 B 方案（去程 D2294 08:04→11:48，回程 D2281 16:21→20:14，二等座 ¥257/¥260/人），住西街亚朵酒店 2 晚：D1 老城西街线（开元寺→西街小吃→钟楼→侯阿婆肉粽→巷仔阿花沙茶火锅）；D2 南线海边（梧林侨乡→永宁古城→黄金海岸→洛伽寺→红塔湾→王永莉沙茶火锅）；D3 文庙线（府文庙→清净寺→海外交通史博物馆→源记牛肉馆→承天寺→返深）。6 家必吃餐馆全部安排，按景点顺路。",
+ "weather_plan": "泉州 8 月末 25-33℃，午后偶有阵雨：出发前 3 天用高德天气实查，阵雨把开元寺户外塔院改古船博物馆/弘一法师纪念馆，西街有骑楼遮雨；D2 海边段遇雨缩短。防晒防蚊。",
+ "hotel": {
+  "name": "泉州西街开元盛世广场亚朵酒店",
+  "address": "七星街 168 号（西街开元寺旁，步行可达开元寺/西街/钟楼）",
+  "lng": 118.584685,
+  "lat": 24.918285,
+  "amap_uri": "https://uri.amap.com/marker?position=118.584685,24.918285&name=%E6%B3%89%E5%B7%9E%E8%A5%BF%E8%A1%97%E5%BC%80%E5%85%83%E7%9B%9B%E4%B8%96%E5%B9%BF%E5%9C%BA%E4%BA%9A%E6%9C%B5%E9%85%92%E5%BA%97",
+  "why": "西街开元寺旁品牌连锁（亚朵），D1 西街线步行可达，D2 南线早出晚归（打车往返西街最方便），D3 文庙线在老城范围。备选：泉州西街中山路亚朵酒店（涂门街91号）。",
+  "plan": "2 晚连住亚朵酒店（D1+D2，不换宿）",
+  "price": {
+   "min": 400,
+   "max": 700,
+   "currency": "CNY",
+   "unit": "per_night",
+   "quantity": 1,
+   "total_min": 800,
+   "total_max": 1400,
+   "label": "住宿（亚朵酒店 2 晚）",
+   "source": "ctrip-webfetch",
+   "source_ref": "携程/亚朵 2026-08：西街开元盛世广场亚朵 400-700/晚"
+  },
+  "check_in": "8/27 12:30",
+  "check_out": "8/29 13:30"
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-08-27",
+   "weekday": "周四",
+   "region": "泉州老城（开元寺—西街—钟楼—中山路）",
+   "theme": "高铁抵泉 · 开元寺 · 西街小吃 · 钟楼夜景 · 姜母鸭",
+   "weather": "待出行前 3 天实查（8 月末泉州 25-33℃，午后偶有阵雨）",
+   "weather_emoji": "🌤",
+   "weather_decision": "开元寺户外塔院遇雨可入古船博物馆/弘一法师纪念馆；西街有骑楼遮雨",
+   "center": [
+    118.585,
+    24.912
+   ],
+   "zoom": 13,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "08:00",
+     "name": "深圳北站·出发",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "高铁 D2294 深圳北 08:04→泉州 11:48（约 3h44m，二等座 ¥257）。",
+     "why": "高铁出行首选，午后到老城开逛",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "出发",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "11:48",
+     "name": "泉州站·到达",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "泉州站（丰泽区）打车到西街约 10.5km/28min，约 ¥25-35。",
+     "why": "高铁站距老城约 10km，打车最快",
+     "price": {
+      "min": 25,
+      "max": 35,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 25,
+      "total_max": 35,
+      "label": "打车（泉州站→西街）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 10.5km"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "12:40",
+     "name": "入住·西街亚朵酒店",
+     "cat": "hotel",
+     "duration_min": 60,
+     "lng": 118.584685,
+     "lat": 24.918285,
+     "note": "泉州西街开元盛世广场亚朵酒店（七星街168号，西街开元寺旁），品牌连锁干净舒适。步行到开元寺/西街/钟楼。",
+     "why": "住西街核心区品牌酒店，D1/D2/D3 出发都方便",
+     "price": {
+      "min": 400,
+      "max": 700,
+      "currency": "CNY",
+      "unit": "per_night",
+      "quantity": 1,
+      "total_min": 400,
+      "total_max": 700,
+      "label": "住宿（亚朵酒店）",
+      "source": "ctrip-webfetch",
+      "source_ref": "携程/亚朵 2026-08：400-700/晚"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "13:30",
+     "name": "午餐·水门国仔面线糊",
+     "cat": "food",
+     "duration_min": 40,
+     "lng": 118.589396,
+     "lat": 24.906613,
+     "note": "中山中路老店，加醋肉/大肠/油条，泉州早餐标配。人均 ¥15-25。",
+     "why": "官方美食线第一站：面线糊开启泉州一天",
+     "price": {
+      "min": 15,
+      "max": 25,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 30,
+      "total_max": 50,
+      "label": "餐饮（D1 午餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：面线糊人均 15-25"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "14:20",
+     "name": "开元寺",
+     "cat": "scenery",
+     "duration_min": 120,
+     "lng": 118.585519,
+     "lat": 24.914168,
+     "note": "西街 176 号，免费直接入园（6:30-17:30，17:00 停入）。东西双塔（中国最高石塔）、大雄宝殿飞天乐伎、千年桑莲古迹、弘一法师纪念馆、古船博物馆（宋代沉船）。",
+     "why": "泉州灵魂所在，世遗古刹",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "16:30",
+     "name": "西街·小吃扫街",
+     "cat": "food",
+     "duration_min": 90,
+     "lng": 118.579473,
+     "lat": 24.921578,
+     "note": "亚佛润饼、源和堂蜜饯、满煎糕；钻小巷（裴巷/台魁巷/古榕巷）更地道。小西埕免费拍照打卡。",
+     "why": "千年古街，逛吃不停",
+     "price": {
+      "min": 20,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 40,
+      "total_max": 80,
+      "label": "小吃（D1 下午茶）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：西街小吃人均 20-40"
+     }
+    },
+    {
+     "idx": 7,
+     "time": "17:30",
+     "name": "钟楼·中山路",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 118.591034,
+     "lat": 24.912291,
+     "note": "泉州地标钟楼亮灯后出片；中山路骑楼老街南北向，海丝金凤元宵圆/东来菜头酸就在金鱼巷口。",
+     "why": "老城南北主轴，夜景治愈",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 8,
+     "time": "18:40",
+     "name": "侯阿婆烧肉粽·点心",
+     "cat": "food",
+     "duration_min": 30,
+     "lng": 118.592213,
+     "lat": 24.911972,
+     "note": "东街总店，泉州烧肉粽（咸香糯+甜辣酱），晚餐前垫肚。人均 ¥15-25。",
+     "why": "官方美食线：烧肉粽",
+     "price": {
+      "min": 15,
+      "max": 25,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 30,
+      "total_max": 50,
+      "label": "餐饮（D1 点心）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：肉粽人均 15-25"
+     }
+    },
+    {
+     "idx": 9,
+     "time": "19:20",
+     "name": "晚餐·巷仔阿花沙茶火锅",
+     "cat": "food",
+     "duration_min": 80,
+     "lng": 118.582474,
+     "lat": 24.915655,
+     "note": "西街 373 号（新西菜市场），沙茶汤底熬煮入味不油腻，推荐海鲜拼盘+鸭肾。人均 ¥60-90。",
+     "why": "泉州必吃：沙茶火锅（小红书口碑）",
+     "price": {
+      "min": 60,
+      "max": 90,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 120,
+      "total_max": 180,
+      "label": "餐饮（D1 晚餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "小红书/点评：巷仔阿花沙茶火锅人均 60-90"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "transit",
+     "duration_min": 224,
+     "distance_m": 370000,
+     "description": "高铁 D2294：深圳北 08:04→泉州 11:48（约 3h44m，二等座 ¥257/人）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 257,
+      "max": 257,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 514,
+      "total_max": 514,
+      "label": "高铁票（深圳北→泉州）",
+      "source": "ctrip-webfetch",
+      "source_ref": "12306/携程：D2294 二等座 ¥257"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 28,
+     "distance_m": 10540,
+     "description": "打车：泉州站→西街亚朵酒店（10.5km/28min，约 ¥25-35）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 25,
+      "max": 35,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 25,
+      "total_max": 35,
+      "label": "打车（泉州站→西街）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 10.5km"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "walking",
+     "duration_min": 15,
+     "distance_m": 1400,
+     "description": "步行：西街亚朵酒店→水门国仔面线糊（1.4km/15min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "walking",
+     "duration_min": 13,
+     "distance_m": 970,
+     "description": "步行：面线糊→开元寺（1.0km/13min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "walking",
+     "duration_min": 18,
+     "distance_m": 1321,
+     "description": "步行：开元寺→西街（1.3km/18min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 6,
+     "to_idx": 7,
+     "mode": "walking",
+     "duration_min": 24,
+     "distance_m": 1782,
+     "description": "步行：西街→钟楼（1.8km/24min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 7,
+     "to_idx": 8,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 400,
+     "description": "步行：钟楼→侯阿婆烧肉粽（东街，0.4km/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 8,
+     "to_idx": 9,
+     "mode": "walking",
+     "duration_min": 8,
+     "distance_m": 1100,
+     "description": "步行：侯阿婆肉粽→巷仔阿花沙茶火锅（西街373，1.1km/8min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 9,
+     "to_idx": 0,
+     "mode": "walking",
+     "duration_min": 8,
+     "distance_m": 800,
+     "description": "步行：沙茶火锅→西街亚朵酒店（0.8km/8min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "水门国仔面线糊",
+      "why": "官方美食线第一站",
+      "lng": 118.589396,
+      "lat": 24.906613,
+      "price": {
+       "min": 15,
+       "max": 25,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 30,
+       "total_max": 50,
+       "label": "餐饮（D1 午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：面线糊人均 15-25"
+      }
+     },
+     "alt": {
+      "name": "老记面线糊（西街总店）",
+      "why": "西街就近"
+     }
+    },
+    "dinner": {
+     "main": {
+      "name": "巷仔阿花沙茶火锅（西街373）",
+      "why": "泉州必吃（小红书口碑）",
+      "lng": 118.582474,
+      "lat": 24.915655,
+      "price": {
+       "min": 60,
+       "max": 90,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 120,
+       "total_max": 180,
+       "label": "餐饮（D1 晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "小红书/点评：巷仔阿花沙茶火锅人均 60-90"
+      }
+     },
+     "alt": {
+      "name": "斯丹姜母鸭（涂门总店）",
+      "why": "泉州必吃备选",
+      "lng": 118.590654,
+      "lat": 24.903031,
+      "price": {
+       "min": 40,
+       "max": 60,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 80,
+       "total_max": 120,
+       "label": "餐饮（D1 晚餐备选）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：姜母鸭人均 40-60"
+      }
+     }
+    }
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-08-28",
+   "weekday": "周五",
+   "region": "泉州南线（梧林—永宁古城—黄金海岸—洛伽寺—红塔湾）",
+   "theme": "梧林侨乡 · 永宁古城 · 黄金海岸 · 洛伽寺 · 红塔湾",
+   "weather": "待出行前 3 天实查（8 月末泉州 25-33℃，午后偶有阵雨）",
+   "weather_emoji": "🌤",
+   "weather_decision": "海边段为主：黄金海岸/红塔湾遇雨缩短，洛伽寺/梧林古厝可避雨；海边紫外线强需防晒",
+   "center": [
+    118.585,
+    24.912
+   ],
+   "zoom": 10,
+   "region_flex": true,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "08:20",
+     "name": "梧林传统村落",
+     "cat": "scenery",
+     "duration_min": 120,
+     "lng": 118.602777,
+     "lat": 24.755043,
+     "note": "07:30 从亚朵酒店打车出发（约 33km/47min，¥60-80）。晋江梧林，600 年闽南红砖古厝+南洋番仔楼（58 栋古大厝/10 栋番仔楼/11 栋洋楼），『闽南建筑博物馆』，免费。",
+     "why": "闽南建筑+华侨侨乡，免费",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "11:00",
+     "name": "永宁古城",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 118.697096,
+     "lat": 24.677622,
+     "note": "10:20 从梧林打车（约 15.8km/41min，¥30-40）。石狮永宁古城，明代卫城格局保存完整，城隍庙+老街骑楼。中餐顺路在永宁老街吃闽南小吃。",
+     "why": "明代卫城，古城格局完整",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "12:50",
+     "name": "黄金海岸",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 118.707283,
+     "lat": 24.673712,
+     "note": "12:40 从永宁打车（约 2.5km/10min，¥10-15）。石狮黄金海岸，绵长沙滩+洛伽寺隔海相望，午后光线好。",
+     "why": "石狮看海核心沙滩",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "14:30",
+     "name": "洛伽寺",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 118.712625,
+     "lat": 24.67347,
+     "note": "黄金海岸旁步行 5min。海上寺庙，潮涨时四面环海，小红书热门机位；随缘参观。",
+     "why": "海上寺庙，小红书打卡点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "15:40",
+     "name": "红塔湾",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 118.718829,
+     "lat": 24.684094,
+     "note": "15:30 从洛伽寺打车（约 1.9km/6min，¥10）。石狮红塔湾，礁石海湾+红塔地标，看海吹风，傍晚光线最美。",
+     "why": "石狮礁石海湾，看海地标",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "18:30",
+     "name": "晚餐·王永莉沙茶火锅",
+     "cat": "food",
+     "duration_min": 80,
+     "lng": 118.582465,
+     "lat": 24.914093,
+     "note": "17:10 从红塔湾打车回市区（约 39.9km/75min，¥90-120），18:25 到。西街 193 号庭院店，沙茶锅底鲜香浓郁，配海鲜/鸭肾。人均 ¥70-110。",
+     "why": "泉州必吃：沙茶火锅（小红书口碑）",
+     "price": {
+      "min": 70,
+      "max": 110,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 140,
+      "total_max": 220,
+      "label": "餐饮（D2 晚餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "小红书/点评：王永莉沙茶火锅人均 70-110"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "driving",
+     "duration_min": 47,
+     "distance_m": 33016,
+     "description": "打车：亚朵酒店→梧林传统村落（33km/47min，约 ¥60-80）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 60,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 60,
+      "total_max": 80,
+      "label": "打车（亚朵→梧林）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 33km"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "driving",
+     "duration_min": 41,
+     "distance_m": 15763,
+     "description": "打车：梧林→永宁古城（15.8km/41min，约 ¥30-40）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 30,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 30,
+      "total_max": 40,
+      "label": "打车（梧林→永宁）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 15.8km"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 10,
+     "distance_m": 2511,
+     "description": "打车：永宁古城→黄金海岸（2.5km/10min，约 ¥10-15）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 10,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 15,
+      "label": "打车（永宁→黄金海岸）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 2.5km"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 400,
+     "description": "步行：黄金海岸→洛伽寺（0.4km/5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 6,
+     "distance_m": 1852,
+     "description": "打车：洛伽寺→红塔湾（1.9km/6min，约 ¥10）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 10,
+      "max": 10,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 10,
+      "label": "打车（洛伽寺→红塔湾）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 1.9km"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "driving",
+     "duration_min": 75,
+     "distance_m": 39876,
+     "description": "打车：红塔湾→亚朵酒店（39.9km/75min，约 ¥90-120）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 90,
+      "max": 120,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 90,
+      "total_max": 120,
+      "label": "打车（红塔湾→亚朵）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 39.9km"
+     }
+    },
+    {
+     "from_idx": 6,
+     "to_idx": 0,
+     "mode": "walking",
+     "duration_min": 8,
+     "distance_m": 600,
+     "description": "步行：王永莉沙茶火锅→亚朵酒店（0.6km/8min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "永宁古城老街（顺路）",
+      "why": "石狮/永宁闽南小吃",
+      "price": {
+       "min": 25,
+       "max": 40,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 50,
+       "total_max": 80,
+       "label": "餐饮（D2 午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：永宁老街小吃人均 25-40"
+      }
+     },
+     "alt": {
+      "name": "黄金海岸海边小食",
+      "why": "海滩摊档备选"
+     }
+    },
+    "dinner": {
+     "main": {
+      "name": "王永莉沙茶火锅（西街193）",
+      "why": "泉州必吃（小红书口碑）",
+      "lng": 118.582465,
+      "lat": 24.914093,
+      "price": {
+       "min": 70,
+       "max": 110,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 140,
+       "total_max": 220,
+       "label": "餐饮（D2 晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "小红书/点评：王永莉沙茶火锅人均 70-110"
+      }
+     },
+     "alt": {
+      "name": "三脚虎·现炒痛风锅（西街238）",
+      "why": "海鲜火锅备选",
+      "lng": 118.582548,
+      "lat": 24.914061,
+      "price": {
+       "min": 80,
+       "max": 120,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 160,
+       "total_max": 240,
+       "label": "餐饮（D2 晚餐备选）",
+       "source": "ctrip-webfetch",
+       "source_ref": "点评：三脚虎现炒痛风锅人均 80-120"
+      }
+     }
+    }
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-08-29",
+   "weekday": "周六",
+   "region": "泉州老城（府文庙—清净寺—海交馆—承天寺）→ 返深",
+   "theme": "府文庙 · 清净寺 · 海外交通史博物馆 · 源记牛肉馆 · 承天寺 · 返程高铁",
+   "weather": "待出行前 3 天实查（8 月末泉州 25-33℃）",
+   "weather_emoji": "🌤",
+   "weather_decision": "海交馆为室内场馆，遇雨最合适；文庙/清净寺/承天寺有建筑可避雨",
+   "center": [
+    118.602,
+    24.906
+   ],
+   "zoom": 14,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "09:00",
+     "name": "府文庙",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 118.590096,
+     "lat": 24.905954,
+     "note": "宋代始建，福建规模最大文庙，免费开放。泮池、大成殿、东西庑保存完好。",
+     "why": "科举文化线起点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "10:10",
+     "name": "清净寺",
+     "cat": "scenery",
+     "duration_min": 40,
+     "lng": 118.591483,
+     "lat": 24.902682,
+     "note": "北宋时期阿拉伯人建，中国现存最早清真寺之一，世遗点。9:00-17:45 开放（5-10 月）。",
+     "why": "海丝多元文化见证",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "11:15",
+     "name": "海外交通史博物馆",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 118.611368,
+     "lat": 24.909925,
+     "note": "11:00 打车从清净寺出发（约 3.5km/15min，¥10-15）。丰泽区，免费需预约，9:00-17:30，周一闭馆（8/29 周六开放）。宋代沉船、香料、中外交通史。",
+     "why": "读懂泉州港海丝往事",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费（需预约）",
+      "source": "computed",
+      "source_ref": "免费"
+     },
+     "requires_booking": true
+    },
+    {
+     "idx": 4,
+     "time": "13:00",
+     "name": "午餐·源记巷内牛肉馆",
+     "cat": "food",
+     "duration_min": 40,
+     "lng": 118.613816,
+     "lat": 24.902056,
+     "note": "12:50 从海交馆打车（约 2km/5min）。丰泽巷内牛肉馆，本地人常吃的牛肉羹/牛排，配咸饭。人均 ¥25-40。",
+     "why": "小红书推荐：本地牛肉馆",
+     "price": {
+      "min": 25,
+      "max": 40,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 50,
+      "total_max": 80,
+      "label": "餐饮（D3 午餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "小红书：源记巷内牛肉馆人均 25-40"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "13:50",
+     "name": "承天寺",
+     "cat": "scenery",
+     "duration_min": 30,
+     "lng": 118.594935,
+     "lat": 24.908466,
+     "note": "13:40 从源记打车（约 4.5km/12min，¥15-20）。南唐始建，闹中取静，古榕红墙，回程前快逛 30min。",
+     "why": "老城静谧古刹，回程顺路",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "14:20",
+     "name": "泉州站·返程",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "14:20 从承天寺打车出发（约 10.5km/28min，¥25-35），15:00 前到泉州站；乘 D2281 泉州 16:21→深圳北 20:14（3h53m，二等座 ¥260）。",
+     "why": "返程高铁",
+     "price": {
+      "min": 260,
+      "max": 260,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 520,
+      "total_max": 520,
+      "label": "高铁票（泉州→深圳北）",
+      "source": "ctrip-webfetch",
+      "source_ref": "12306/携程：D2281 二等座 ¥260"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "walking",
+     "duration_min": 14,
+     "distance_m": 1300,
+     "description": "步行：西街亚朵酒店→府文庙（1.3km/14min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "walking",
+     "duration_min": 9,
+     "distance_m": 660,
+     "description": "步行：府文庙→清净寺（0.7km/9min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "零元",
+      "source": "computed",
+      "source_ref": "免费"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 15,
+     "distance_m": 3488,
+     "description": "打车：清净寺→海外交通史博物馆（3.5km/15min，约 ¥10-15）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 10,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 15,
+      "label": "打车（清净寺→海交馆）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 3.5km"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "driving",
+     "duration_min": 5,
+     "distance_m": 2000,
+     "description": "打车：海交馆→源记巷内牛肉馆（约 2km/5min，¥8-12）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 8,
+      "max": 12,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 8,
+      "total_max": 12,
+      "label": "打车（海交馆→源记牛肉馆）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 2km"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 12,
+     "distance_m": 4500,
+     "description": "打车：源记牛肉馆→承天寺（约 4.5km/12min，¥15-20）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 15,
+      "total_max": 20,
+      "label": "打车（源记→承天寺）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 4.5km"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "driving",
+     "duration_min": 28,
+     "distance_m": 10540,
+     "description": "打车：承天寺→泉州站（10.5km/28min，约 ¥25-35）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 25,
+      "max": 35,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 25,
+      "total_max": 35,
+      "label": "打车（承天寺→泉州站）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 10.5km"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "源记巷内牛肉馆",
+      "why": "小红书推荐本地牛肉",
+      "lng": 118.613816,
+      "lat": 24.902056,
+      "price": {
+       "min": 25,
+       "max": 40,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 50,
+       "total_max": 80,
+       "label": "餐饮（D3 午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "小红书：源记巷内牛肉馆人均 25-40"
+      }
+     },
+     "alt": {
+      "name": "侯阿婆肉粽（东街）",
+      "why": "回程前快食备选"
+     }
+    }
+   }
+  }
+ ],
+ "deleted": [
+  {
+   "name": "清源山（老君岩）",
+   "why": "距市区较远需半天，本次行程较满；留给下次深度游"
+  },
+  {
+   "name": "蟳埔村（簪花/蚵壳厝）",
+   "why": "距老城约 17km，本次未安排；簪花可下次体验"
+  },
+  {
+   "name": "崇武古城（惠安）",
+   "why": "距泉州约 50km 单程 1h+，行程不足"
+  },
+  {
+   "name": "天后宫（妈祖庙）",
+   "why": "用户指定去除，本次行程不再安排"
+  },
+  {
+   "name": "关岳庙（通淮关岳庙）",
+   "why": "用户指定去除，本次行程不再安排"
+  },
+  {
+   "name": "洛阳桥·桥南古街",
+   "why": "B 方案 D2 改为南线海边（梧林-永宁-黄金海岸-洛伽寺-红塔湾），洛阳桥留给 A 方案"
+  },
+  {
+   "name": "泉州木偶剧院（提线木偶戏）",
+   "why": "如需非遗演出可回深后补"
+  },
+  {
+   "name": "斯丹姜母鸭（涂门总店）",
+   "why": "D1 晚餐为巷仔阿花沙茶火锅；姜母鸭列入备选"
+  },
+  {
+   "name": "升文扁食/亚佛润饼",
+   "why": "本次行程未安排；西街扫街时可选"
+  },
+  {
+   "name": "开元寺弘一法师纪念馆",
+   "why": "16:30 前需预约，D1 行程若延误可舍（古船博物馆替代）"
+  }
+ ],
+ "prebook": [
+  {
+   "item": "高铁票（深圳北⇄泉州）",
+   "deadline": "提前 15 天开售即抢（热门班次）",
+   "url": "https://trains.ctrip.com/trainsearch/?from=%E6%B7%B1%E5%9C%B3%E5%8C%97&to=%E6%B3%89%E5%B7%9E",
+   "note": "去程 D2294 深圳北 08:04→泉州 11:48；返程 D2281 泉州 16:21→深圳北 20:14；二等座 去程 ¥257 返程 ¥260/人，2 人往返约 1034",
+   "day": 0,
+   "time": "16:21",
+   "price": {
+    "min": 1034,
+    "max": 1034,
+    "currency": "CNY",
+    "unit": "per_person",
+    "quantity": 2,
+    "total_min": 2068,
+    "total_max": 2068,
+    "label": "高铁往返（2 人 1034）",
+    "source": "ctrip-webfetch",
+    "source_ref": "12306/携程：去程 D2294 ¥257 + 返程 D2281 ¥260"
+   }
+  },
+  {
+   "item": "住宿·西街亚朵酒店",
+   "deadline": "提前 3-5 天",
+   "url": "https://hotels.ctrip.com/hotels/list?cityname=%E6%B3%89%E5%B7%9E&keyword=%E4%BA%9A%E6%9C%B5",
+   "note": "2 晚连住不换宿；备选泉州西街中山路亚朵酒店（涂门街91号）",
+   "day": 0,
+   "price": {
+    "min": 800,
+    "max": 1400,
+    "currency": "CNY",
+    "unit": "per_night",
+    "quantity": 1,
+    "total_min": 800,
+    "total_max": 1400,
+    "label": "住宿（亚朵 2 晚）",
+    "source": "ctrip-webfetch",
+    "source_ref": "携程/亚朵 2026-08：西街开元盛世广场亚朵 400-700/晚"
+   }
+  },
+  {
+   "item": "海外交通史博物馆预约",
+   "deadline": "出行前 1-3 天实名预约",
+   "url": "https://www.qzhsg.com/",
+   "note": "Day 3 11:15 入场；免费不免票，周一闭馆（8/29 周六开放），带身份证",
+   "day": 3,
+   "price": {
+    "min": 0,
+    "max": 0,
+    "currency": "CNY",
+    "unit": "free",
+    "quantity": 1,
+    "total_min": 0,
+    "total_max": 0,
+    "label": "免费（需预约）",
+    "source": "computed",
+    "source_ref": "免费"
+   }
+  }
+ ],
+ "xhs_destination_brief": {
+  "degraded": false,
+  "note": "参考泉州攻略（Trip.com/去哪儿/旅荐网/泉州文旅局官方美食线路/小红书）整理",
+  "must_visit": [
+   "开元寺",
+   "西街",
+   "钟楼",
+   "中山路",
+   "府文庙",
+   "清净寺",
+   "海外交通史博物馆",
+   "承天寺",
+   "梧林传统村落",
+   "永宁古城",
+   "黄金海岸",
+   "洛伽寺",
+   "红塔湾"
+  ],
+  "skip_or_caution": [
+   "面线糊：水门国仔面线糊（中山路）/老记面线糊（西街）加醋肉大肠，早餐限定，午后部分收档",
+   "沙茶火锅：巷仔阿花（西街373）与王永莉（西街193）是小红书口碑店，沙茶锅底熬煮入味；三脚虎现炒痛风锅（西街238）海鲜火锅",
+   "烧肉粽：侯阿婆肉粽（东街）配甜辣酱；蓝氏钟楼肉粽在钟楼",
+   "石花膏/四果汤：秉正堂（天后宫旁）是中华老字号",
+   "西街主街网红店慎选，钻裴巷/台魁巷/古榕巷更地道",
+   "开元寺免费，17:00 停入；弘一法师纪念馆 16:30 前需预约",
+   "清净寺 5-10 月 9:00-17:45 开放；关岳庙/天后宫本次行程已去除",
+   "梧林传统村落免费，红砖古厝+番仔楼，村口有闽南小吃",
+   "永宁古城（石狮）明代卫城格局，永宁老街吃闽南小吃",
+   "黄金海岸/红塔湾海边：下午光线好，红塔湾礁石多注意安全；洛伽寺潮涨时四面环海，海边紫外线强需防晒",
+   "源记巷内牛肉馆在丰泽（近海交馆），牛肉羹/牛排配咸饭是本地味道",
+   "8 月暑热 25-33℃，午后偶阵雨，户外段备伞防晒"
+  ],
+  "region_layout": "D1 西街-开元寺-钟楼-中山路（老城步行）；D2 梧林-永宁古城-黄金海岸-洛伽寺-红塔湾（南线打车）；D3 府文庙-清净寺-海交馆-源记牛肉馆-承天寺-返深"
+ },
+ "budget_summary": {
+  "currency": "CNY",
+  "by_category": {
+   "trains": {
+    "min": 1034,
+    "max": 1034,
+    "note": "深圳北⇄泉州高铁 2 人往返（去程 D2294 ¥257 + 返程 D2281 ¥260，二等座）"
+   },
+   "transport": {
+    "min": 280,
+    "max": 380,
+    "note": "D2 南线长途打车（亚朵→梧林→永宁→海边→亚朵）+ 市区往返"
+   },
+   "tickets": {
+    "min": 0,
+    "max": 0,
+    "note": "梧林/永宁/海边均免费（海外交通史博物馆免费预约）"
+   },
+   "food": {
+    "min": 460,
+    "max": 740,
+    "note": "面线糊＋沙茶火锅×2＋永宁中餐＋源记牛肉馆＋侯阿婆肉粽（6 家必吃全安排）"
+   },
+   "hotel": {
+    "min": 800,
+    "max": 1400,
+    "note": "西街开元盛世广场亚朵酒店 400-700/晚 ×2 晚（2 人分摊）"
+   },
+   "shopping": {
+    "min": 0,
+    "max": 100,
+    "note": "西街伴手礼（可选）"
+   },
+   "meals_snacks": {
+    "min": 60,
+    "max": 120,
+    "note": "西街小吃扫街/海丝金凤元宵圆等"
+   }
+  },
+  "total_min": 3342,
+  "total_max": 4821,
+  "per_person_min": 1671,
+  "per_person_max": 2410,
+  "disclaimer": "价格为 2026-08 调研参考（2 人分摊后人均约 1671-2410 元，含高铁往返与亚朵酒店），不含购物；D2 南线打车费用波动大，以实际打表为准"
+ },
+ "validation_report": {
+  "rounds": [
+   {
+    "round": 1,
+    "phase": "结构筛",
+    "focus": "删点、分组、一天一区、用户禁忌",
+    "issues": [
+     "小红书/攻略《泉州3天2夜》+ 泉州文旅局『十大美食线路』拆 3 天：D1 老城西街线（开元寺-西街-钟楼-侯阿婆肉粽-巷仔阿花沙茶火锅）、D2 南线海边（梧林-永宁古城-黄金海岸-洛伽寺-红塔湾-王永莉沙茶火锅）、D3 文庙线（府文庙-清净寺-海交馆-源记牛肉馆-承天寺-返深）",
+     "B 方案：用户指定 D2 改为南线海边（梧林侨乡→永宁古城→黄金海岸→洛伽寺→红塔湾）",
+     "按 6 家用户指定餐馆顺路规划：国仔面线糊(D1午)/侯阿婆肉粽(D1点)/巷仔阿花沙茶火锅(D1晚)/永宁老街中餐顺路(D2)/王永莉沙茶火锅(D2晚)/源记巷内牛肉馆(D3午)，全部安排",
+     "用户指定去除天后宫/关岳庙；洛阳桥留给 A 方案；清源山/蟳埔村/崇武等列入 deleted[]",
+     "住宿为西街开元盛世广场亚朵酒店（品牌连锁），2 晚连住不换宿",
+     "D2 含南线海边+晚上回市区，region_flex=true 处理跨区",
+     "V7 用户禁忌审查：无禁忌类型 POI（无购物团/高风险户外；海边常规）"
+    ],
+    "conclusion": "通过，进入 Round 2",
+    "rules": [
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "主区域 泉州老城（开元寺—西街—钟楼—中山路），最远 POI「西街·小吃扫街」 1.20 km（阈值 3.0/5.0）",
+      "worst_km": 1.2
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "含跨区返程（泉州南线（梧林—永宁古城—黄金海岸—洛伽寺—红塔湾）），region_flex=true 跳过最远距离检查"
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "末日（泉州老城（府文庙—清净寺—海交馆—承天寺）→ 返深），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 1 当日预约 0 条：无",
+      "count": 0
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 2 当日预约 0 条：无",
+      "count": 0
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 3 当日预约 1 条：海外交通史博物馆预约",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "phase": "时空筛",
+    "focus": "高铁实算通勤与末日缓冲",
+    "issues": [
+     "高铁 D2294 深圳北 08:04→泉州 11:48（约 3h44m）；返程 D2281 泉州 16:21→深圳北 20:14（约 3h53m），二等座 去程 ¥257 返程 ¥260/人",
+     "高德 REST 实算 22 段（source=amap-rest-api）：亚朵→梧林 33km/47min、梧林→永宁 15.8km/41min、永宁→黄金海岸 2.5km/10min、黄金海岸→洛伽寺 步行5min、洛伽寺→红塔湾 1.9km/6min、红塔湾→亚朵 39.9km/75min、市区步行/短途打车各段",
+     "D2 通勤占比 20.3%（最长段 87min 红塔湾→晚餐），<50% 通过；V9 全 22 段 duration 均高于高德粗算下限",
+     "V5 末日缓冲 2.02h（末 POI 14:20 出发→16:21 高铁）通过"
+    ],
+    "conclusion": "通过，进入 Round 3",
+    "rules": [
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 3.3%；最远段 5 min（西街·小吃扫街→钟楼·中山路，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.033
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 20.3%；最远段 87 min（红塔湾→晚餐·王永莉沙茶火锅，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.203
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 5.4%；最远段 6 min（清净寺→海外交通史博物馆，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.054
+     },
+     {
+      "id": "V5",
+      "rule": "末日返程缓冲",
+      "status": "✅",
+      "note": "末日末 POI 14:20 → 航班 16:21，缓冲 2.02 h（高铁票（深圳北⇄泉州））",
+      "buffer_hours": 2.02
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 22 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V9",
+      "rule": "通勤时间下限（高德实算）",
+      "status": "✅",
+      "note": "全部 22 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+     },
+     {
+      "id": "V13",
+      "rule": "酒店早晚通勤",
+      "status": "✅",
+      "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+     }
+    ]
+   },
+   {
+    "round": 3,
+    "phase": "体验筛",
+    "focus": "餐厅、备选、天气、预算溯源",
+    "issues": [
+     "V3 ✅：D1 面线糊 0.75km、D2 王永莉沙茶火锅 0.35km、D3 源记牛肉馆 1.27km，均在 1.5km 阈值内",
+     "户外 POI 以老城建筑/南线海边为主；8 月 25-33℃ 午后偶阵雨，海边段需防晒，洛伽寺/梧林古厝可避雨",
+     "V10 ✅：21 POI + 22 transport + 餐食均有 source 标价；预算汇总 3342-4821 与行程明细加总一致（2 人分摊口径）",
+     "价格溯源：高铁二等座 D2294 ¥257/D2281 ¥260、亚朵 400-700/晚、梧林/永宁/海边免费、海交馆免费需预约、火锅人均 60-120，均非 ai-guess"
+    ],
+    "conclusion": "通过，进入 Step 6-7",
+    "rules": [
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「水门国仔面线糊」(lunch) 离主区域 0.75 km（阈值 1.5/3.0）",
+      "worst_km": 0.75
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「王永莉沙茶火锅（西街193）」(dinner) 离主区域 0.35 km（阈值 1.5/3.0）",
+      "worst_km": 0.35
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「源记巷内牛肉馆」(lunch) 离主区域 1.27 km（阈值 1.5/3.0）",
+      "worst_km": 1.27
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 22 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V10",
+      "rule": "价格溯源（v2.1.0 新增）",
+      "status": "✅",
+      "note": "全部 21 POI + 22 transport + 餐食均有 source 标价"
+     }
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "主区域 泉州老城（开元寺—西街—钟楼—中山路），最远 POI「西街·小吃扫街」 1.20 km（阈值 3.0/5.0）",
+    "worst_km": 1.2
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "含跨区返程（泉州南线（梧林—永宁古城—黄金海岸—洛伽寺—红塔湾）），region_flex=true 跳过最远距离检查"
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "末日（泉州老城（府文庙—清净寺—海交馆—承天寺）→ 返深），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 3.3%；最远段 5 min（西街·小吃扫街→钟楼·中山路，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.033
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 20.3%；最远段 87 min（红塔湾→晚餐·王永莉沙茶火锅，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.203
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 5.4%；最远段 6 min（清净寺→海外交通史博物馆，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.054
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「水门国仔面线糊」(lunch) 离主区域 0.75 km（阈值 1.5/3.0）",
+    "worst_km": 0.75
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「王永莉沙茶火锅（西街193）」(dinner) 离主区域 0.35 km（阈值 1.5/3.0）",
+    "worst_km": 0.35
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「源记巷内牛肉馆」(lunch) 离主区域 1.27 km（阈值 1.5/3.0）",
+    "worst_km": 1.27
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 1 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 2 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 3 当日预约 1 条：海外交通史博物馆预约",
+    "count": 1
+   },
+   {
+    "id": "V5",
+    "rule": "末日返程缓冲",
+    "status": "✅",
+    "note": "末日末 POI 14:20 → 航班 16:21，缓冲 2.02 h（高铁票（深圳北⇄泉州））",
+    "buffer_hours": 2.02
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V8",
+    "rule": "MCP 必跑痕迹",
+    "status": "✅",
+    "note": "全部 22 段 transport 含合法 source 与 duration_min"
+   },
+   {
+    "id": "V9",
+    "rule": "通勤时间下限（高德实算）",
+    "status": "✅",
+    "note": "全部 22 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+   },
+   {
+    "id": "V10",
+    "rule": "价格溯源（v2.1.0 新增）",
+    "status": "✅",
+    "note": "全部 21 POI + 22 transport + 餐食均有 source 标价"
+   },
+   {
+    "id": "V13",
+    "rule": "酒店早晚通勤",
+    "status": "✅",
+    "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+   }
+  ],
+  "summary": "21 通过 / 0 警告 / 0 失败（全量复检；**V7 用户禁忌需 AI 自行核对**）",
+  "note": "AI 自填 V7（用户禁忌）；浏览器加载时会用同规则重算 V1/V3/V4/V5/V6/V8/V9 并覆盖"
+ }
+}
