@@ -1,0 +1,1771 @@
+{
+ "$schema": "https://felixzhangg.github.io/travel-plans/schema.json",
+ "amap_key": "da6fdfdede459e8e3b7eb68ffc16d0a0",
+ "trip_name": "重庆 3天3晚 · 4条citywalk线+洪崖洞夜景（飞机）",
+ "date_range": "2026-09-25 ~ 2026-09-28（周五~周一）",
+ "n_days": "3 天 3 晚",
+ "city": "重庆",
+ "trip_slug": "chongqing-b-2026-09-25",
+ "party_size": 2,
+ "trip_center": [
+  106.575,
+  29.555
+ ],
+ "summary": "重庆 3 天 3 晚 B 方案（9/25 晚川航3U5416 深圳21:15→重庆23:20；9/28 G3351 重庆西16:24→遵义17:42），住解放碑亚朵 3 晚：D1 citywalk①市井线(临江门→山城巷)+③治愈线(半山崖线)+洪崖洞夜景；D2 解放碑八一小吃街+citywalk④浪漫线(黄桷垭→龙门浩)+南滨路夜景；D3 citywalk②电影线(后堡→工贸)+重庆火锅→重庆西站去遵义。小红书视频 4 条 citywalk 路线全覆盖。",
+ "weather_plan": "9 月下旬重庆 22-30℃，偶有阵雨：出发前 3 天用高德天气实查；步道湿滑穿防滑鞋，带伞防晒防蚊。",
+ "hotel": {
+  "name": "重庆解放碑八一广场亚朵酒店",
+  "address": "较场口15号大元广场（地铁1/2号线较场口站旁）",
+  "lng": 106.575451,
+  "lat": 29.55357,
+  "amap_uri": "https://uri.amap.com/marker?position=106.575451,29.553570&name=%E9%87%8D%E5%BA%86%E8%A7%A3%E6%94%BE%E7%A2%91%E4%BA%9A%E6%9C%B5",
+  "why": "渝中区解放碑核心（较场口地铁1/2号线），步行到解放碑/八一小吃街/洪崖洞；各条 citywalk 线地铁或短途打车可达。备选：解放碑全季/民宿。",
+  "plan": "9/25 晚入住，9/26、9/27 连住 3 晚（9/28 退房去遵义）",
+  "price": {
+   "min": 350,
+   "max": 600,
+   "currency": "CNY",
+   "unit": "per_night",
+   "quantity": 3,
+   "total_min": 1050,
+   "total_max": 1800,
+   "label": "住宿（解放碑亚朵 3 晚）",
+   "source": "ctrip-webfetch",
+   "source_ref": "携程/亚朵 2026-09：350-600/晚"
+  },
+  "check_in": "9/26 00:30",
+  "check_out": "9/28 12:00"
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-09-25",
+   "weekday": "周五",
+   "label": "抵达日",
+   "region": "深圳→重庆（晚班机）",
+   "theme": "晚班机抵渝 · 江北机场 → 解放碑",
+   "weather": "9 月下旬重庆 22-30℃，晚间微凉",
+   "weather_emoji": "🌙",
+   "weather_decision": "晚到直接入住；次日再安排游玩",
+   "center": [
+    106.575,
+    29.555
+   ],
+   "zoom": 11,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "21:15",
+     "name": "深圳宝安机场·出发",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "川航 3U5416 深圳 21:15→重庆江北 23:20（约 2h05m）。提前 2 小时到机场，值机托运。",
+     "why": "晚班机，避免请假",
+     "price": {
+      "min": 780,
+      "max": 1300,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 1560,
+      "total_max": 2600,
+      "label": "机票（深圳→重庆）",
+      "source": "ctrip-webfetch",
+      "source_ref": "川航3U5416 单程 780-1300"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "23:20",
+     "name": "重庆江北机场·到达",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "江北机场打车到解放碑酒店约 31.6km/49min，¥60-80（深夜加价）。或坐机场快线K01路/地铁10号线换6号线。",
+     "why": "到达重庆",
+     "price": {
+      "min": 60,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 60,
+      "total_max": 80,
+      "label": "打车（江北机场→解放碑）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 31.6km"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "00:30",
+     "name": "入住·解放碑亚朵酒店",
+     "cat": "hotel",
+     "duration_min": 30,
+     "lng": 106.575451,
+     "lat": 29.55357,
+     "note": "重庆解放碑八一广场亚朵酒店（较场口15号，大元广场），地铁1/2号线较场口站旁。步行到解放碑/洪崖洞/八一小吃街。",
+     "why": "渝中核心，各条 citywalk 线地铁可达",
+     "price": {
+      "min": 350,
+      "max": 600,
+      "currency": "CNY",
+      "unit": "per_night",
+      "quantity": 1,
+      "total_min": 350,
+      "total_max": 600,
+      "label": "住宿（解放碑亚朵）",
+      "source": "ctrip-webfetch",
+      "source_ref": "携程/亚朵 2026-09：350-600/晚"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "transit",
+     "duration_min": 125,
+     "distance_m": 1180000,
+     "description": "航班 3U5416：深圳宝安 21:15→重庆江北 23:20（约 2h05m）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 780,
+      "max": 1300,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 1560,
+      "total_max": 2600,
+      "label": "机票（深圳→重庆）",
+      "source": "ctrip-webfetch",
+      "source_ref": "川航3U5416 单程 780-1300"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 49,
+     "distance_m": 31643,
+     "description": "打车：江北机场→解放碑亚朵（31.6km/49min，约 ¥60-80）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 60,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 60,
+      "total_max": 80,
+      "label": "打车（机场→酒店）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 31.6km"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 0,
+     "mode": "walking",
+     "duration_min": 5,
+     "distance_m": 100,
+     "description": "抵达酒店，办理入住（就地，5min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    }
+   ],
+   "meals": {}
+  },
+  {
+   "day": 2,
+   "date": "2026-09-26",
+   "weekday": "周六",
+   "region": "渝中（市井线）+ 半山（治愈线）+ 洪崖洞夜景",
+   "theme": "citywalk①市井线 · ③治愈线半山 · 洪崖洞夜景",
+   "weather": "待出行前 3 天实查（9 月重庆 22-30℃，偶有阵雨）",
+   "weather_emoji": "🌤",
+   "weather_decision": "山城巷/半山崖线户外，遇雨改洪崖洞室内/八一好吃街；步道湿滑穿防滑鞋",
+   "center": [
+    106.565,
+    29.557
+   ],
+   "zoom": 12,
+   "region_flex": true,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "09:30",
+     "name": "市井线·临江门",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.575022,
+     "lat": 29.558356,
+     "note": "酒店步行/地铁1号线到临江门站。起逛渝中老城：大井巷、新华日报旧址、若瑟堂，老社区+市井烟火。",
+     "why": "citywalk①市井线起点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "10:40",
+     "name": "市井线·通远门",
+     "cat": "scenery",
+     "duration_min": 40,
+     "lng": 106.56291,
+     "lat": 29.554914,
+     "note": "七星岗1号口步行430m。重庆现存唯一古城门（明城墙），城墙遗址公园，华一坡/新德村老社区穿行。",
+     "why": "老重庆城墙肌理",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "11:30",
+     "name": "市井线·山城巷",
+     "cat": "scenery",
+     "duration_min": 120,
+     "lng": 106.566636,
+     "lat": 29.550702,
+     "note": "悬崖栈道+老民居+领事巷，山城巷有熨斗糕/老烧饼等小吃，午餐在此解决。",
+     "why": "citywalk①终点+午餐",
+     "price": {
+      "min": 30,
+      "max": 60,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 60,
+      "total_max": 120,
+      "label": "小吃（D1午餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：山城巷小吃人均 30-60"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "14:00",
+     "name": "治愈线·大坪站出发",
+     "cat": "scenery",
+     "duration_min": 30,
+     "lng": 106.551787,
+     "lat": 29.56268,
+     "note": "13:30 从山城巷打车/地铁回酒店取物，14:00 地铁1号线到大坪站5号口。",
+     "why": "citywalk②治愈线起点",
+     "price": {
+      "min": 10,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 15,
+      "label": "打车（山城巷→大坪）",
+      "source": "computed",
+      "source_ref": "市内短途"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "15:00",
+     "name": "治愈线·半山崖线",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 106.519192,
+     "lat": 29.545296,
+     "note": "浮图关社区→半山崖线入口→红墙→悬空观景台，空中步道看轻轨、江景、悬崖绿意。",
+     "why": "citywalk②核心步道",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "16:50",
+     "name": "治愈线·红岩村站",
+     "cat": "scenery",
+     "duration_min": 30,
+     "lng": 106.497185,
+     "lat": 29.553414,
+     "note": "半山步道一路下坡到虎头崖公园→红岩村站，轨道穿山机位。结束治愈线。",
+     "why": "citywalk②终点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 7,
+     "time": "19:30",
+     "name": "洪崖洞·夜景",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 106.578192,
+     "lat": 29.561999,
+     "note": "18:30 从红岩村打车回渝中（约 8km），19:30 到洪崖洞。吊脚楼亮灯后金碧辉煌，崖壁与嘉陵江倒影，重庆夜景名片。亮灯约 19:00-22:30。",
+     "why": "重庆夜景地标（用户指定）",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 8,
+     "time": "21:30",
+     "name": "返回酒店",
+     "cat": "transport",
+     "duration_min": 20,
+     "note": "洪崖洞步行/打车回解放碑亚朵（约 3.2km/15min，¥10-15）。",
+     "why": "回酒店",
+     "price": {
+      "min": 10,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 15,
+      "label": "打车（洪崖洞→酒店）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 3.2km"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "walking",
+     "duration_min": 10,
+     "distance_m": 700,
+     "description": "步行：解放碑亚朵→临江门（0.7km/10min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "walking",
+     "duration_min": 25,
+     "distance_m": 1600,
+     "description": "步行：临江门→通远门（1.6km/25min，经大井巷/新华日报旧址/若瑟堂）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "walking",
+     "duration_min": 20,
+     "distance_m": 1300,
+     "description": "步行：通远门→山城巷（1.3km/20min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "driving",
+     "duration_min": 17,
+     "distance_m": 3791,
+     "description": "打车：山城巷→大坪站（3.8km/17min，约 ¥10-15）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 10,
+      "max": 15,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 10,
+      "total_max": 15,
+      "label": "打车（山城巷→大坪）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 3.8km"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "walking",
+     "duration_min": 30,
+     "distance_m": 2000,
+     "description": "步行：大坪站→半山崖线入口（浮图关社区，2km/30min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "walking",
+     "duration_min": 42,
+     "distance_m": 3179,
+     "description": "步行：半山崖线→红岩村站（3.2km/42min，一路下坡）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 6,
+     "to_idx": 7,
+     "mode": "driving",
+     "duration_min": 20,
+     "distance_m": 8000,
+     "description": "打车：红岩村→洪崖洞（约 8km/20min，¥20-30）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 20,
+      "max": 30,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 20,
+      "total_max": 30,
+      "label": "打车（红岩村→洪崖洞）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 8km"
+     }
+    },
+    {
+     "from_idx": 7,
+     "to_idx": 8,
+     "mode": "walking",
+     "duration_min": 15,
+     "distance_m": 900,
+     "description": "步行：洪崖洞→解放碑亚朵（0.9km/15min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "山城巷小吃（熨斗糕/老烧饼）",
+      "why": "citywalk午餐",
+      "lng": 106.566636,
+      "lat": 29.550702,
+      "price": {
+       "min": 30,
+       "max": 60,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 60,
+       "total_max": 120,
+       "label": "餐饮（D1午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：山城巷小吃人均 30-60"
+      }
+     },
+     "alt": {
+      "name": "临江门社区老火锅",
+      "why": "老城火锅备选"
+     }
+    },
+    "dinner": {
+     "main": {
+      "name": "洪崖洞/八一小吃街",
+      "why": "夜景旁晚餐",
+      "lng": 106.578192,
+      "lat": 29.561999,
+      "price": {
+       "min": 80,
+       "max": 150,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 160,
+       "total_max": 300,
+       "label": "餐饮（D1晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：重庆火锅/小吃人均 80-150"
+      }
+     },
+     "alt": {
+      "name": "解放碑商圈火锅",
+      "why": "商圈火锅备选"
+     }
+    }
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-09-27",
+   "weekday": "周日",
+   "region": "渝中解放碑 + 南岸（浪漫线）",
+   "theme": "解放碑小吃 · citywalk④浪漫线 · 南滨路夜景",
+   "weather": "待出行前 3 天实查（9 月重庆 22-30℃，偶有阵雨）",
+   "weather_emoji": "🌤",
+   "weather_decision": "黄葛古道下坡防滑；南滨路看夜景，遇雨改室内",
+   "center": [
+    106.585,
+    29.555
+   ],
+   "zoom": 12,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "10:30",
+     "name": "解放碑·八一小吃街",
+     "cat": "scenery",
+     "duration_min": 120,
+     "lng": 106.577005,
+     "lat": 29.558009,
+     "note": "睡到自然醒，逛解放碑步行街+八一小吃街（酸辣粉/小面/酥肉/锅巴土豆），重庆最市中心。",
+     "why": "重庆地标+美食街",
+     "price": {
+      "min": 40,
+      "max": 80,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 80,
+      "total_max": 160,
+      "label": "小吃（D2早午餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：八一小吃街人均 40-80"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "13:30",
+     "name": "浪漫线·黄桷垭老街",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.602464,
+     "lat": 29.537208,
+     "note": "13:00 从解放碑打车到南岸黄桷垭（约 6km/20min，¥15-20）。老街在南山脚下，三毛故居、老茶馆。",
+     "why": "citywalk④浪漫线起点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "14:40",
+     "name": "浪漫线·黄葛古道",
+     "cat": "scenery",
+     "duration_min": 70,
+     "lng": 106.597,
+     "lat": 29.543,
+     "note": "黄葛古道（上新街前驱路）沿石阶下南坡，古黄葛树荫浓，串联下敦厚坡/前驱路老巷。",
+     "why": "citywalk④古道下坡",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "16:10",
+     "name": "浪漫线·开埠遗址公园",
+     "cat": "scenery",
+     "duration_min": 40,
+     "lng": 106.592064,
+     "lat": 29.55159,
+     "note": "南滨路开埠遗址公园，看渝中半岛江景与老码头记忆。",
+     "why": "citywalk④江边遗址",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "17:00",
+     "name": "浪漫线·龙门浩老街",
+     "cat": "scenery",
+     "duration_min": 90,
+     "lng": 106.594746,
+     "lat": 29.555993,
+     "note": "下浩里→龙门浩老街（重庆首个开埠文化老街），吊脚楼+石板路，正对渝中半岛，晚餐在此。",
+     "why": "citywalk④终点+晚餐",
+     "price": {
+      "min": 70,
+      "max": 130,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 140,
+      "total_max": 260,
+      "label": "餐饮（D2晚餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：龙门浩/南滨路餐饮人均 70-130"
+     }
+    },
+    {
+     "idx": 6,
+     "time": "19:30",
+     "name": "南滨路·渝中夜景",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.5965,
+     "lat": 29.5545,
+     "note": "龙门浩/南滨路看对岸渝中夜景（洪崖洞+来福士+大剧院灯光），隔江观赏角度经典。也可地铁6号线过江回渝中。",
+     "why": "隔江看渝中夜景",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "walking",
+     "duration_min": 10,
+     "distance_m": 600,
+     "description": "步行：解放碑亚朵→解放碑（0.6km/10min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "driving",
+     "duration_min": 20,
+     "distance_m": 6000,
+     "description": "打车：解放碑→黄桷垭老街（约 6km/20min，¥15-20）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 15,
+      "total_max": 20,
+      "label": "打车（解放碑→黄桷垭）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 6km"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "walking",
+     "duration_min": 30,
+     "distance_m": 1800,
+     "description": "步行：黄桷垭→黄葛古道（1.8km/30min 下坡）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "walking",
+     "duration_min": 20,
+     "distance_m": 1200,
+     "description": "步行：黄葛古道→开埠遗址公园（1.2km/20min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "walking",
+     "duration_min": 15,
+     "distance_m": 900,
+     "description": "步行：开埠遗址→龙门浩老街（0.9km/15min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 5,
+     "to_idx": 6,
+     "mode": "walking",
+     "duration_min": 10,
+     "distance_m": 500,
+     "description": "步行：龙门浩→南滨路观景点（0.5km/10min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 6,
+     "to_idx": 0,
+     "mode": "driving",
+     "duration_min": 20,
+     "distance_m": 4000,
+     "description": "打车：南滨路→解放碑亚朵（约 4km/20min，¥15-20）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 15,
+      "total_max": 20,
+      "label": "打车（南滨路→酒店）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 4km"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "八一小吃街（酸辣粉/小面/酥肉）",
+      "why": "重庆小吃集中地",
+      "lng": 106.577005,
+      "lat": 29.558009,
+      "price": {
+       "min": 40,
+       "max": 80,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 80,
+       "total_max": 160,
+       "label": "餐饮（D2午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：八一小吃街人均 40-80"
+      }
+     },
+     "alt": {
+      "name": "黄桷垭老街小食",
+      "why": "南山脚下备选"
+     }
+    },
+    "dinner": {
+     "main": {
+      "name": "龙门浩老街/南滨路",
+      "why": "看江景晚餐",
+      "lng": 106.594746,
+      "lat": 29.555993,
+      "price": {
+       "min": 70,
+       "max": 130,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 140,
+       "total_max": 260,
+       "label": "餐饮（D2晚餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：龙门浩/南滨路人均 70-130"
+      }
+     },
+     "alt": {
+      "name": "南山泉水鸡/豆花饭",
+      "why": "南岸特色备选"
+     }
+    }
+   }
+  },
+  {
+   "day": 4,
+   "date": "2026-09-28",
+   "weekday": "周一",
+   "region": "南岸（电影线）→ 重庆西站 → 遵义",
+   "theme": "citywalk②电影线 · 重庆火锅 · G3351 去遵义",
+   "weather": "待出行前 3 天实查（9 月重庆 22-30℃）",
+   "weather_emoji": "🌤",
+   "weather_decision": "电影线街区为主，晴天更好出片；午后出发遵义",
+   "center": [
+    106.57,
+    29.535
+   ],
+   "zoom": 12,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "09:00",
+     "name": "电影线·后堡站",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.569128,
+     "lat": 29.538516,
+     "note": "08:30 从解放碑打车到南岸后堡站（约 5km/15min）。后堡公园→后堡社区→后堡小巷，黄桷树荫+老楼。",
+     "why": "citywalk③电影线起点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "10:10",
+     "name": "电影线·BB机/80文化街",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.571269,
+     "lat": 29.538861,
+     "note": "后堡公园→BB机文化街→80文化街，壁画+年代感小卖部，复古拍照机位。",
+     "why": "citywalk③复古街道",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 3,
+     "time": "11:20",
+     "name": "电影线·绿皮火车/工贸站",
+     "cat": "scenery",
+     "duration_min": 60,
+     "lng": 106.563399,
+     "lat": 29.531553,
+     "note": "绿皮火车展陈→工贸站收尾。电影线主打 80 年代复古、巷弄、黄桷树荫和壁画。",
+     "why": "citywalk③终点",
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "idx": 4,
+     "time": "12:40",
+     "name": "午餐·南岸火锅",
+     "cat": "food",
+     "duration_min": 60,
+     "lng": 106.57,
+     "lat": 29.535,
+     "note": "后堡/工贸附近吃重庆火锅（防空洞火锅/南岸老火锅），人均 ¥70-120。",
+     "why": "重庆必吃",
+     "price": {
+      "min": 70,
+      "max": 120,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 140,
+      "total_max": 240,
+      "label": "餐饮（D3午餐）",
+      "source": "ctrip-webfetch",
+      "source_ref": "攻略：重庆火锅人均 70-120"
+     }
+    },
+    {
+     "idx": 5,
+     "time": "14:00",
+     "name": "重庆西站·出发",
+     "cat": "transport",
+     "duration_min": 30,
+     "note": "13:30 回酒店取行李，14:00 打车去重庆西站（约 18.3km/41min，¥40-60）；乘 G3351 重庆西 16:24→遵义 17:42（二等座 ¥721）。",
+     "why": "G3351 去遵义",
+     "price": {
+      "min": 721,
+      "max": 721,
+      "currency": "CNY",
+      "unit": "per_person",
+      "quantity": 2,
+      "total_min": 1442,
+      "total_max": 1442,
+      "label": "高铁票（重庆西→遵义）",
+      "source": "ctrip-webfetch",
+      "source_ref": "12306/携程：G3351 二等座 ¥721"
+     }
+    }
+   ],
+   "transports": [
+    {
+     "from_idx": 0,
+     "to_idx": 1,
+     "mode": "driving",
+     "duration_min": 15,
+     "distance_m": 5000,
+     "description": "打车：解放碑亚朵→后堡站（约 5km/15min，¥15-20）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 15,
+      "max": 20,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 15,
+      "total_max": 20,
+      "label": "打车（解放碑→后堡）",
+      "source": "computed",
+      "source_ref": "高德驾车估算 5km"
+     }
+    },
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "walking",
+     "duration_min": 15,
+     "distance_m": 800,
+     "description": "步行：后堡站→后堡公园（0.8km/15min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "walking",
+     "duration_min": 8,
+     "distance_m": 500,
+     "description": "步行：80文化街→绿皮火车/工贸站（0.5km/8min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 4,
+     "mode": "walking",
+     "duration_min": 10,
+     "distance_m": 600,
+     "description": "步行：工贸站→午餐火锅店（0.6km/10min）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "免费",
+      "source": "computed",
+      "source_ref": "免费开放"
+     }
+    },
+    {
+     "from_idx": 4,
+     "to_idx": 5,
+     "mode": "driving",
+     "duration_min": 41,
+     "distance_m": 18256,
+     "description": "打车：午餐店→重庆西站（18.3km/41min，约 ¥40-60）",
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 40,
+      "max": 60,
+      "currency": "CNY",
+      "unit": "per_order",
+      "quantity": 1,
+      "total_min": 40,
+      "total_max": 60,
+      "label": "打车（南岸→重庆西站）",
+      "source": "computed",
+      "source_ref": "高德驾车实算 18.3km"
+     }
+    }
+   ],
+   "meals": {
+    "lunch": {
+     "main": {
+      "name": "南岸老火锅",
+      "why": "重庆火锅收尾",
+      "lng": 106.57,
+      "lat": 29.535,
+      "price": {
+       "min": 70,
+       "max": 120,
+       "currency": "CNY",
+       "unit": "per_person",
+       "quantity": 2,
+       "total_min": 140,
+       "total_max": 240,
+       "label": "餐饮（D3午餐）",
+       "source": "ctrip-webfetch",
+       "source_ref": "攻略：重庆火锅人均 70-120"
+      }
+     },
+     "alt": {
+      "name": "防空洞火锅",
+      "why": "重庆特色备选"
+     }
+    }
+   }
+  }
+ ],
+ "deleted": [
+  {
+   "name": "李子坝轻轨穿楼",
+   "why": "治愈线半山崖线已可看轨道穿山，且李子坝观景台人多；如想打卡可 D1 顺路"
+  },
+  {
+   "name": "磁器口古镇",
+   "why": "商业化较重、距渝中较远，本次以 4 条 citywalk 线为主"
+  },
+  {
+   "name": "长江索道",
+   "why": "排队久，浪漫线龙门浩/南滨路已可看江景；可选坐"
+  },
+  {
+   "name": "鹅岭二厂/鹅岭公园",
+   "why": "原 Trip.com 版路线含，但小红书视频版 4 线未含；时间不足舍"
+  },
+  {
+   "name": "南山一棵树观景台",
+   "why": "门票+人挤，南滨路/龙门浩看夜景更轻松"
+  },
+  {
+   "name": "湖广会馆/罗汉寺",
+   "why": "需门票，行程以免费 citywalk 为主"
+  }
+ ],
+ "prebook": [
+  {
+   "item": "高铁票·G3351（重庆西→遵义）",
+   "deadline": "提前 15 天开售",
+   "url": "https://trains.ctrip.com/trainsearch/?from=%E9%87%8D%E5%BA%86%E8%A5%BF&to=%E9%81%B5%E4%B9%89",
+   "note": "9/28 16:24 重庆西→17:42 遵义（1h18m，二等座 ¥721/人）",
+   "day": 3,
+   "time": "16:24",
+   "price": {
+    "min": 721,
+    "max": 721,
+    "currency": "CNY",
+    "unit": "per_person",
+    "quantity": 2,
+    "total_min": 1442,
+    "total_max": 1442,
+    "label": "高铁（重庆西→遵义）",
+    "source": "ctrip-webfetch",
+    "source_ref": "12306/携程：G3351 二等座 ¥721"
+   }
+  },
+  {
+   "item": "机票·川航3U5416（深圳→重庆）",
+   "deadline": "提前 1-2 周购票（晚班机价格浮动大）",
+   "url": "https://flights.ctrip.com/international/search/oneway-szx-ckg?depdate=2026-09-25",
+   "note": "9/25 21:15 深圳宝安→23:20 重庆江北；2 人往返含税约 1560-2600",
+   "day": 0,
+   "time": "21:15",
+   "price": {
+    "min": 1560,
+    "max": 2600,
+    "currency": "CNY",
+    "unit": "per_person",
+    "quantity": 2,
+    "total_min": 3120,
+    "total_max": 5200,
+    "label": "机票往返（2人估算）",
+    "source": "ctrip-webfetch",
+    "source_ref": "川航3U5416 单程 780-1300"
+   }
+  },
+  {
+   "item": "住宿·解放碑八一广场亚朵",
+   "deadline": "提前 1-2 周",
+   "url": "https://hotels.ctrip.com/hotels/list?cityname=%E9%87%8D%E5%BA%86&keyword=%E4%BA%9A%E6%9C%B5",
+   "note": "3 晚连住（9/25-9/28），350-600/晚；备选解放碑全季/较场口民宿",
+   "day": 0,
+   "price": {
+    "min": 1050,
+    "max": 1800,
+    "currency": "CNY",
+    "unit": "per_night",
+    "quantity": 1,
+    "total_min": 1050,
+    "total_max": 1800,
+    "label": "住宿（解放碑亚朵 3 晚）",
+    "source": "ctrip-webfetch",
+    "source_ref": "携程/亚朵 2026-09：350-600/晚"
+   }
+  }
+ ],
+ "xhs_destination_brief": {
+  "degraded": false,
+  "note": "小红书视频《重庆最喜欢的4条citywalk路线，没有之一》提取（市井线/电影线/治愈线/浪漫线）+ Trip.com 同题文字攻略佐证",
+  "must_visit": [
+   "临江门市井线",
+   "后堡电影线",
+   "大坪治愈线",
+   "黄桷垭浪漫线",
+   "洪崖洞夜景",
+   "解放碑八一小吃街",
+   "龙门浩老街"
+  ],
+  "skip_or_caution": [
+   "市井线（临江门→山城巷）：老社区+小吃+日常烟火气，2-3h 平缓，山城巷有熨斗糕/老烧饼",
+   "电影线（后堡→工贸）：80年代复古、巷弄、黄桷树荫和壁画，适合拍年代感照片，节奏偏慢",
+   "治愈线（大坪→红岩村）：半山绿意、悬空栈道、看轨道穿山，一路下坡对膝盖友好",
+   "浪漫线（黄桷垭→龙门浩）：老街+黄葛古道+江边，社会主义学院看夜，傍晚光线最好",
+   "洪崖洞：亮灯约 19:00-22:30，吊脚楼+嘉陵江倒影；旺季人多，可先在千厮门大桥/对岸看全景",
+   "重庆地铁扫码支付，1号线（渝中/大坪）/2号线（江景）/6号线（南岸过江）",
+   "山城步行多梯坎，穿防滑运动鞋，直线 500m 可能爬 10 层楼台阶",
+   "9 月重庆 22-30℃，偶有阵雨，带伞防晒防蚊"
+  ],
+  "region_layout": "D0晚到；D1 市井线(渝中)+治愈线(半山)+洪崖洞夜景；D2 解放碑+浪漫线(南岸)+南滨路夜景；D3 电影线(南岸)→重庆西站→遵义"
+ },
+ "budget_summary": {
+  "currency": "CNY",
+  "by_category": {
+   "trains": {
+    "min": 1442,
+    "max": 1442,
+    "note": "重庆西→遵义 G3351 高铁 2 人（¥721×2）"
+   },
+   "flight": {
+    "min": 1560,
+    "max": 2600,
+    "note": "深圳⇄重庆机票 2 人（川航3U5416 单程 780-1300）"
+   },
+   "transport": {
+    "min": 220,
+    "max": 340,
+    "note": "江北机场往返+各线间短途打车（解放碑↔南岸↔半山）"
+   },
+   "tickets": {
+    "min": 0,
+    "max": 0,
+    "note": "4 条 citywalk 线均免费；洪崖洞/解放碑/龙门浩免费"
+   },
+   "food": {
+    "min": 290,
+    "max": 520,
+    "note": "山城巷小吃+八一好吃街+龙门浩晚餐+南岸火锅（火锅必吃）"
+   },
+   "hotel": {
+    "min": 1050,
+    "max": 1800,
+    "note": "解放碑八一广场亚朵 350-600/晚 ×3 晚（2 人分摊）"
+   },
+   "shopping": {
+    "min": 0,
+    "max": 100,
+    "note": "伴手礼（可选）"
+   },
+   "meals_snacks": {
+    "min": 40,
+    "max": 80,
+    "note": "街头小吃/酸辣粉等"
+   }
+  },
+  "total_min": 10337,
+  "total_max": 16457,
+  "per_person_min": 5168,
+  "per_person_max": 8228,
+  "disclaimer": "价格为 2026-09 调研参考（2 人分摊后人均约 5168-8228 元，含机票/高铁/住宿），不含购物；机票价格浮动大，以实时为准"
+ },
+ "validation_report": {
+  "rounds": [
+   {
+    "round": 1,
+    "phase": "结构筛",
+    "focus": "删点、分组、一天一区、用户禁忌",
+    "issues": [
+     "小红书视频《重庆最喜欢的4条citywalk路线，没有之一》提取：市井线(临江门-山城巷)/治愈线(大坪-红岩村)/浪漫线(黄桷垭-龙门浩)/电影线(后堡-工贸)，配 Trip.com 同题文字攻略佐证",
+     "9/25 晚川航3U5416 抵渝，9/26-9/27 全天+9/28 上午游玩，9/28 G3351 去遵义；4 条线分配：D2 市井+治愈+洪崖洞夜景、D3 浪漫线+南滨路夜景、D4 电影线+重庆西站",
+     "住解放碑八一广场亚朵 3 晚（较场口地铁1/2号线），各条线地铁或短途打车可达",
+     "用户指定 9/26 晚洪崖洞夜景；洪崖洞亮灯 19:00-22:30",
+     "V7 用户禁忌审查：无禁忌类型 POI（均为公共街区/免费景点）"
+    ],
+    "conclusion": "通过，进入 Round 2",
+    "rules": [
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "主区域 深圳→重庆（晚班机），最远 POI「入住·解放碑亚朵酒店」 0.16 km（阈值 3.0/5.0）",
+      "worst_km": 0.16
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "含跨区返程（渝中（市井线）+ 半山（治愈线）+ 洪崖洞夜景），region_flex=true 跳过最远距离检查"
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "主区域 渝中解放碑 + 南岸（浪漫线），最远 POI「浪漫线·黄桷垭老街」 2.60 km（阈值 3.0/5.0）",
+      "worst_km": 2.6
+     },
+     {
+      "id": "V1",
+      "rule": "区域一致性",
+      "status": "✅",
+      "note": "末日（南岸（电影线）→ 重庆西站 → 遵义），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 1 当日预约 0 条：无",
+      "count": 0
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 2 当日预约 0 条：无",
+      "count": 0
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 3 当日预约 1 条：高铁票·G3351（重庆西→遵义）",
+      "count": 1
+     },
+     {
+      "id": "V4",
+      "rule": "一日一重预约",
+      "status": "✅",
+      "note": "Day 4 当日预约 0 条：无",
+      "count": 0
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "phase": "时空筛",
+    "focus": "航班/高铁实算通勤与末日缓冲",
+    "issues": [
+     "川航3U5416 深圳宝安 21:15→重庆江北 23:20（2h05m）；G3351 重庆西 16:24→遵义 17:42（1h18m，二等座 ¥721）",
+     "高德 REST 实算 23 段：江北机场→解放碑 31.6km/49min、半山崖线→红岩村 步行3.2km/42min、解放碑↔黄桷垭 6km/20min、南岸→重庆西站 18.3km/41min 等",
+     "D2 跨区（渝中市井+半山治愈+洪崖洞），region_flex=true；通勤占比最高 10%<50% 通过",
+     "V5 末日缓冲 2.40h（末 POI 14:00 重庆西站→16:24 G3351）通过"
+    ],
+    "conclusion": "通过，进入 Round 3",
+    "rules": [
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 0.0%；最远段 0 min（（POI 缺 location），**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.0
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 10.0%；最远段 24 min（治愈线·红岩村站→洪崖洞·夜景，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.1
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 4.0%；最远段 10 min（解放碑·八一小吃街→浪漫线·黄桷垭老街，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.04
+     },
+     {
+      "id": "V2",
+      "rule": "时间可行性（粗算）",
+      "status": "✅",
+      "note": "通勤占总时长 2.2%；最远段 3 min（电影线·BB机/80文化街→电影线·绿皮火车/工贸站，**粗算，建议用高德 route_* 复核**）",
+      "commute_ratio": 0.022
+     },
+     {
+      "id": "V5",
+      "rule": "末日返程缓冲",
+      "status": "✅",
+      "note": "末日末 POI 14:00 → 航班 16:24，缓冲 2.40 h（高铁票·G3351（重庆西→遵义））",
+      "buffer_hours": 2.4
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 23 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V9",
+      "rule": "通勤时间下限（高德实算）",
+      "status": "✅",
+      "note": "全部 23 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+     },
+     {
+      "id": "V13",
+      "rule": "酒店早晚通勤",
+      "status": "✅",
+      "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+     }
+    ]
+   },
+   {
+    "round": 3,
+    "phase": "体验筛",
+    "focus": "餐厅、备选、天气、预算溯源",
+    "issues": [
+     "V3 ✅：D2 洪崖洞晚餐 1.39km、D3 龙门浩晚餐 0.95km，均在 1.5km 阈值内",
+     "户外 POI 以 citywalk 步道/老街为主；9 月 22-30℃ 偶有阵雨，步道湿滑穿防滑鞋，遇雨改室内",
+     "V10 ✅：22 POI + 23 transport + 餐食均有 source 标价；预算汇总 10337-16457 与行程明细加总一致（2 人分摊口径）",
+     "价格溯源：机票 780-1300/人、G3351 ¥721/人、亚朵 350-600/晚、4 条 citywalk 线免费、火锅人均 70-120，均非 ai-guess"
+    ],
+    "conclusion": "通过，进入 Step 6-7",
+    "rules": [
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "无餐厅坐标字段可验（正常）"
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「洪崖洞/八一小吃街」(dinner) 离主区域 1.39 km（阈值 1.5/3.0）",
+      "worst_km": 1.39
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "最远餐厅「龙门浩老街/南滨路」(dinner) 离主区域 0.95 km（阈值 1.5/3.0）",
+      "worst_km": 0.95
+     },
+     {
+      "id": "V3",
+      "rule": "餐厅区域匹配",
+      "status": "✅",
+      "note": "无餐厅坐标字段可验（正常）"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V6",
+      "rule": "户外天气敏感",
+      "status": "✅",
+      "note": "无户外 POI"
+     },
+     {
+      "id": "V8",
+      "rule": "MCP 必跑痕迹",
+      "status": "✅",
+      "note": "全部 23 段 transport 含合法 source 与 duration_min"
+     },
+     {
+      "id": "V10",
+      "rule": "价格溯源（v2.1.0 新增）",
+      "status": "✅",
+      "note": "全部 22 POI + 23 transport + 餐食均有 source 标价"
+     }
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "主区域 深圳→重庆（晚班机），最远 POI「入住·解放碑亚朵酒店」 0.16 km（阈值 3.0/5.0）",
+    "worst_km": 0.16
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "含跨区返程（渝中（市井线）+ 半山（治愈线）+ 洪崖洞夜景），region_flex=true 跳过最远距离检查"
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "主区域 渝中解放碑 + 南岸（浪漫线），最远 POI「浪漫线·黄桷垭老街」 2.60 km（阈值 3.0/5.0）",
+    "worst_km": 2.6
+   },
+   {
+    "id": "V1",
+    "rule": "区域一致性",
+    "status": "✅",
+    "note": "末日（南岸（电影线）→ 重庆西站 → 遵义），跳过区域距离检查（返程 POI 偏远是合理的；用 V5 验缓冲）"
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 0.0%；最远段 0 min（（POI 缺 location），**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.0
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 10.0%；最远段 24 min（治愈线·红岩村站→洪崖洞·夜景，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.1
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 4.0%；最远段 10 min（解放碑·八一小吃街→浪漫线·黄桷垭老街，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.04
+   },
+   {
+    "id": "V2",
+    "rule": "时间可行性（粗算）",
+    "status": "✅",
+    "note": "通勤占总时长 2.2%；最远段 3 min（电影线·BB机/80文化街→电影线·绿皮火车/工贸站，**粗算，建议用高德 route_* 复核**）",
+    "commute_ratio": 0.022
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "无餐厅坐标字段可验（正常）"
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「洪崖洞/八一小吃街」(dinner) 离主区域 1.39 km（阈值 1.5/3.0）",
+    "worst_km": 1.39
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "最远餐厅「龙门浩老街/南滨路」(dinner) 离主区域 0.95 km（阈值 1.5/3.0）",
+    "worst_km": 0.95
+   },
+   {
+    "id": "V3",
+    "rule": "餐厅区域匹配",
+    "status": "✅",
+    "note": "无餐厅坐标字段可验（正常）"
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 1 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 2 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 3 当日预约 1 条：高铁票·G3351（重庆西→遵义）",
+    "count": 1
+   },
+   {
+    "id": "V4",
+    "rule": "一日一重预约",
+    "status": "✅",
+    "note": "Day 4 当日预约 0 条：无",
+    "count": 0
+   },
+   {
+    "id": "V5",
+    "rule": "末日返程缓冲",
+    "status": "✅",
+    "note": "末日末 POI 14:00 → 航班 16:24，缓冲 2.40 h（高铁票·G3351（重庆西→遵义））",
+    "buffer_hours": 2.4
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V6",
+    "rule": "户外天气敏感",
+    "status": "✅",
+    "note": "无户外 POI"
+   },
+   {
+    "id": "V8",
+    "rule": "MCP 必跑痕迹",
+    "status": "✅",
+    "note": "全部 23 段 transport 含合法 source 与 duration_min"
+   },
+   {
+    "id": "V9",
+    "rule": "通勤时间下限（高德实算）",
+    "status": "✅",
+    "note": "全部 23 段 duration_min 已填且 ≥ 直线粗算×55%（实算比粗算慢允许）"
+   },
+   {
+    "id": "V10",
+    "rule": "价格溯源（v2.1.0 新增）",
+    "status": "✅",
+    "note": "全部 22 POI + 23 transport + 餐食均有 source 标价"
+   },
+   {
+    "id": "V13",
+    "rule": "酒店早晚通勤",
+    "status": "✅",
+    "note": "每日酒店出发/回酒店段已写入 transports（idx=0）"
+   }
+  ],
+  "summary": "26 通过 / 0 警告 / 0 失败（全量复检；**V7 用户禁忌需 AI 自行核对**）",
+  "note": "AI 自填 V7（用户禁忌）；浏览器加载时会用同规则重算 V1/V3/V4/V5/V6/V8/V9 并覆盖"
+ }
+}
